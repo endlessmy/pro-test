@@ -1,0 +1,4266 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		 <meta charset="UTF-8">
+		 <title></title>
+		 <link rel="stylesheet" href="css/style.css" />
+		 <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	     <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+         <script src="js/index.js"></script>
+	</head>
+	<body>
+		<!--顶部滚动隐藏-->
+		<div class="scroll">
+			<div class="scroll-con">
+				<img src="image/scroll.png">
+				<div>
+					<input type="text" placeholder="电动牙刷" class="scroll-text">
+		 	 	    <input type="button" class="scroll-submit" value="搜索">
+				</div>				
+			</div>
+		</div>
+		<!--广告条-->
+		 <div class="guanggao-bar">
+		 	<div class="top-bar">
+		 		<a href="javascript:;"><img src="image/js.jpg"></a>
+		 		<div id="xx"><a href="javascript:;">X</a></div>/
+		 	</div>
+		 </div>
+		 <!--头部-->
+		 <div class="head">
+		 	 <div class="text-block fl">
+		 	 	 <span>送至：北京<i class="fa fa-angle-down"></i></span>
+		 	 	 <div class="text-none beijing">
+		 	 	 	 <dl class="fl mar-l">
+		 	 	 	 	 <dt>北京</dt>
+		 	 	 	 	 <dd>山西</dd>
+		 	 	 	 	 <dd>内蒙古</dd>
+		 	 	 	 	 <dd>福建</dd>
+		 	 	 	 	 <dd>江西</dd>
+		 	 	 	 	 <dd>新疆</dd>
+		 	 	 	 	 <dd>陕西</dd>
+		 	 	 	 </dl>
+		 	 	 	 <dl class="fl mar-l">
+		 	 	 	 	 <dt>重庆</dt>
+		 	 	 	 	 <dd>湖南</dd>
+		 	 	 	 	 <dd>湖北</dd>
+		 	 	 	 	 <dd>河北</dd>
+		 	 	 	 	 <dd>西藏</dd>
+		 	 	 	 	 <dd>青海</dd>
+		 	 	 	 	 <dd>广西</dd>
+		 	 	 	 </dl>
+		 	 	 	 <dl class="fl mar-l">
+		 	 	 	 	 <dt>三亚</dt>
+		 	 	 	 	 <dd>广东</dd>
+		 	 	 	 	 <dd>甘肃</dd>
+		 	 	 	 	 <dd>天津</dd>
+		 	 	 	 	 <dd>山东</dd>
+		 	 	 	 	 <dd>安徽</dd>
+		 	 	 	 	 <dd>浙江</dd>
+		 	 	 	 </dl>
+		 	 	 	 <dl class="fl mar-l">
+		 	 	 	 	 <dt>江苏</dt>
+		 	 	 	 	 <dd>云南</dd>
+		 	 	 	 	 <dd>宁夏</dd>
+		 	 	 	 	 <dd>黑龙江</dd>
+		 	 	 	 	 <dd>吉林</dd>
+		 	 	 	 	 <dd>澳门</dd>
+		 	 	 	 	 <dd>陕西</dd>
+		 	 	 	 </dl>
+		 	 	 	 <dl class="fl mar-l">
+		 	 	 	 	 <dt>上海</dt>
+		 	 	 	 	 <dd>辽宁</dd>
+		 	 	 	 	 <dd>贵州</dd>
+		 	 	 	 	 <dd>钓鱼岛</dd>
+		 	 	 	 	 <dd>台湾</dd>
+		 	 	 	 	 <dd>香港</dd>
+		 	 	 	 	 <dd>海外</dd>
+		 	 	 	 </dl>
+		 	 	 </div>
+		 	 </div>
+		 	 <div class="fr">
+		 	 	 <a href="login/login.html" class="wd">你好，请登录</a>
+		 	 	 <a href="register/reg.html" class="reg">免费注册</a>
+		 	 	 <small>|</small>
+		 	 	 <a href="javascript:;" class="wd">我的订单</a>
+		 	 	 <small>|</small>
+		 	 	 <div class="text-block">
+		 	 	 	 <a href="javascript:;" class="wd">我的京东<i class="fa fa-angle-down"></i></a>
+		 	 	     <small>|</small>
+		 	 	     <div class="text-none myjd">
+		 	 	     	 	 <dl class="fl mine">
+		 	 	     	 	 	 <dt>待处理订单</dt>
+		 	 	     	 	 	 <dd>返修退换货</dd>
+		 	 	     	 	 	 <dd>降价商品</dd>
+		 	 	     	 	 	 <dd>我的京东</dd>
+		 	 	     	 	 	 <dd>我的白条</dd>
+		 	 	     	 	 </dl>
+		 	 	     	 	 <dl class="fl mine"> 
+		 	 	     	 	 	 <dt>消息</dt>
+		 	 	     	 	 	 <dd>我的问答</dd>
+		 	 	     	 	 	 <dd>我的关注</dd>
+		 	 	     	 	 	 <dd>我的优惠券</dd>
+		 	 	     	 	 	 <dd>我的理财</dd>
+		 	 	     	 	 </dl>
+		 	 	     </div>
+		 	 	 </div>
+		 	 	 <a href="javascript:;" class="wd">京东会员</a>
+		 	 	 <small>|</small>
+		 	 	 <a href="javascript:;" class="wd">企业采购</a>
+		 	 	 <small>|</small>
+		 	 	 <div class="text-block">
+		 	 	 	 <a href="javascript:;" class="wd">手机京东</a>
+		 	 	 	 <small>|</small>
+		 	 	     <!--<div class="text-none phonejd">
+		 	 	     	 <dl>
+		 	 	     	 	 <dt><img src="image/571497daNe857f9ed.png " ></dt>
+		 	 	     	 </dl>
+		 	 	     </div>-->
+		 	 	 </div>
+		 	 	 <div class="text-block">
+		 	 	 	 <a href="javascript:;" class="wd">客户服务<i class="fa fa-angle-down"></i></a>
+		 	 	     <small>|</small>
+		 	 	     <div class="text-none kefu">
+		 	 	     	 <dl class="text-c-none fl">			
+							<dt>客户</dt>
+							<dd>帮助中心</dd>
+							<dd>在线客服</dd>
+							<dd>客服邮箱</dd>
+						</dl>
+						<dl class="width50 fl">
+							<dt>&nbsp;</dt>
+							<dd>售后服务</dd>
+							<dd>意见建议</dd>
+						</dl>
+		 	 	     	 <div class="cb"></div>
+		 	 	     	 <dl class="text-c-none mar-top">
+							<dt>商户</dt>
+							<dd>合作招商</dd>
+						</dl>
+		 	 	     </div>
+		 	 	 </div>
+		 	 	 <div class="text-block">
+		 	 	 	 <a href="javascript:;" class="wd">网站导航<i class="fa fa-angle-down"></i></a>
+		 	 	     <div class="text-none" id="daohang">
+		 	 	     	 <div class="fl daohang-fore">
+		 	 	     	 <div class="width20">
+		 	 	     	 	 <h2>特色主题</h2>
+		 	 	     	 	 <ul class="fl">
+		 	 	     	 	 	 <li><a href="javascript:;">品牌头条</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">发现好货</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">京东试用</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">港澳售</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">京东会员</a></li>
+		 	 	     	 	 </ul>
+		 	 	     	 	 <ul class="fl">
+		 	 	     	 	 	 <li><a href="javascript:;">品牌头条</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">发现好货</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">京东试用</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">港澳售</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">京东会员</a></li>
+		 	 	     	 	 </ul>
+		 	 	     	 	 <ul class="fl">
+		 	 	     	 	 	 <li><a href="javascript:;">品牌头条</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">发现好货</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">京东试用</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">港澳售</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">京东会员</a></li>
+		 	 	     	 	 </ul>
+		 	 	     	 	 <ul class="fl">
+		 	 	     	 	 	 <li><a href="javascript:;">品牌头条</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">发现好货</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">京东试用</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">港澳售</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">京东会员</a></li>
+		 	 	     	 	 </ul>
+		 	 	     	 </div>
+                        </div>
+                        <div class="fl daohang-fore">
+		 	 	     	 <div class="width20">
+		 	 	     	 	 <h2>行业频道</h2>
+		 	 	     	 	 <ul class="fl">
+		 	 	     	 	 	 <li><a href="javascript:;">服装厂</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">手机</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">智能数码</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">运动户外</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">弄房频道</a></li>
+		 	 	     	 	 </ul>
+		 	 	     	 	 <ul class="fl">
+		 	 	     	 	 	 <li><a href="javascript:;">家用电器</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">美妆馆</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">母婴</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">整车</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">京东智能</a></li>
+		 	 	     	 	 </ul>
+		 	 	     	 	 <ul class="fl">
+		 	 	     	 	 	 <li><a href="javascript:;">电脑办公</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">食品</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">假装成</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">图书</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">影像</a></li>
+		 	 	     	 	 </ul>
+		 	 	     	 	 <ul class="fl">
+		 	 	     	 	 	 <li><a href="javascript:;">品牌头条</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">发现好货</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">京东试用</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">港澳售</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">京东会员</a></li>
+		 	 	     	 	 </ul>
+		 	 	     	 </div>
+                        </div>
+                        <div class="fl daohang-fore">
+		 	 	     	 <div class="width20">
+		 	 	     	 	 <h2>生活服务</h2>
+		 	 	     	 	 <ul class="fl">
+		 	 	     	 	 	 <li><a href="javascript:;">品牌头条</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">发现好货</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">京东试用</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">港澳售</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">京东会员</a></li>
+		 	 	     	 	 </ul>
+		 	 	     	 	 <ul class="fl">
+		 	 	     	 	 	 <li><a href="javascript:;">品牌头条</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">发现好货</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">京东试用</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">港澳售</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">京东会员</a></li>
+		 	 	     	 	 </ul>
+		 	 	     	 	 <ul class="fl">
+		 	 	     	 	 	 <li><a href="javascript:;">品牌头条</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">发现好货</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">京东试用</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">港澳售</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">京东会员</a></li>
+		 	 	     	 	 </ul>
+		 	 	     	 	 <ul class="fl">
+		 	 	     	 	 	 <li><a href="javascript:;">品牌头条</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">发现好货</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">京东试用</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">港澳售</a></li>
+		 	 	     	 	 	 <li><a href="javascript:;">京东会员</a></li>
+		 	 	     	 	 </ul>
+		 	 	     	 </div>
+                        </div>
+		 	 	     </div>
+		 	 	 </div>
+		 	 </div>
+		 </div>
+		 <!--左侧滚动隐藏-->
+		 <div class="left-fix">
+		 	<ul class="fl">
+		 		<li class="fix-on"><a href="#quality">享品质</a></li>
+		 		<li><a href="#clothes">服饰美妆</a></li>
+		 		<li><a href="#phones">家电手机</a></li>
+		 		<li><a href="#computers">数码电脑</a></li>
+		 		<li><a href="#sport3">3C运动</a></li>
+		 		<li><a href="#eat">爱吃</a></li>
+		 		<li><a href="#mom">母婴家居</a></li>
+		 		<li><a href="#book">图书汽车</a></li>
+		 		<li><a href="#game">游戏金融</a></li>
+		 		<li><a href="#travel">旅行健康</a></li>
+		 		<li><a href="#no-guang">还没逛够</a></li>
+		 		<li style="border-bottom:none;"><a href="#top">顶部</a></li>
+		 	</ul>
+		 </div>
+		 <!--右侧固定-->
+		 <div class="right-fix">
+		 	<ul>
+		 	   <li><i class="fa fa-user-o fa-lg"></i><p>京东会员</p></li>
+		 	   <li><i class="fa fa-cart-plus fa-lg"></i><p>购物车</p></li>
+		 	   <li><i class="fa fa-heart-o fa-lg"></i><p>优惠券</p></li>
+		 	   <li><i class="fa fa-commenting fa-lg"></i><p>我的关注</p></li>
+		 	   <li><i class="fa fa-headphones fa-lg"></i><p>我的足迹</p></li>
+		 	   <li><i class="fa fa-user-o fa-lg"></i><p>我的消息</p></li>
+		 	   <li><i class="fa fa-user-o fa-lg"></i><p>咨询JIMI</p></li>
+		 	</ul>
+		 </div>
+		 <!--底部固定-->
+		 <div class="foot-fix">
+		 	 <ul class="fl">
+		 	 	<li>
+		 	 		<a href="#top">
+		 	 			<i class="fa fa-chevron-up fa-lg"></i>
+		 	 			<p>顶部</p>
+		 	 		</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		<a href="javascript:;">
+		 	 			<i class="fa fa-pencil fa-lg"></i>
+		 	 			<p>反馈</p>
+		 	 		</a>
+		 	 	</li>
+		 	 </ul>
+		 </div>
+		 <!--logo部分-->
+		 <div class="w" id="logo">
+		 	 <div class="logo-jd fl">
+		 	 	 <a href="javascript:;"><img src="image/logo.jpg"></a>
+		 	 </div>
+		 	 <div class="sousuo fl">
+		 	 	 <input type="text" placeholder="电动牙刷" class="text">
+		 	 	 <input type="submit" class="submit" value="搜索">
+		 	 	 <div class="small">
+			 	 	 <a href="javascript:;" class="reg">平板五折秒</a>
+			 	 	 <a class="wd">免费注册</a><a class="wd">小米6</a>
+			 	 	 <a class="wd">阿玛尼</a><a class="wd">家电礼券</a>
+			 	 	 <a class="wd">游戏耳机</a><a class="wd">雪地靴女</a>
+			 	 	 <a class="wd">199减100</a><a class="wd">手套男</a>
+		 	     </div>
+		 	 </div>
+		 	 <div class="go-cart fl">
+			 	 <div class="my-gou fr">
+			 	 	<a href="javascript:;"><i class="fa fa-cart-arrow-down fa-2x"></i></a>
+			 	 	<a href="javascript:;" class="reg">我的购物车</a>
+			 	 </div>	
+			 	 <div class="no-gou">
+		 	 		<img src="images/cart.png">
+		 	 		<span>购物车中还没有商品，赶快选购吧！</span>
+			 	 </div>
+			 </div>
+		 </div>
+		 <!--nav导航部分-->
+		 <div class="nav">
+		 	 <!--<h2>全部商品分类</h2>-->
+		 	 <div class="lie">
+		 	 	 <ul>
+			 	 	 <li><a class="wd">秒杀</a></li>
+			 	 	 <li><a class="wd">优惠券</a></li>
+			 	 	 <li><a class="wd">闪购</a></li>
+			 	 	 <li><a class="wd">拍卖</a></li>
+			 	 	 <li><a class="wd">服装城</a></li>
+			 	 	 <li><a class="wd">京东超市</a></li>
+			 	 	 <li><a class="wd">生鲜</a></li>
+			 	 	 <li><a class="wd">全球购</a></li>
+			 	 	 <li><a class="wd">京东金融</a></li>
+		 	     </ul>
+		 	 </div>
+		 </div>
+		 <!--二级菜单 轮播开始-->
+		 <div class="banner">
+		 	 <div class="banner-left fl">
+		 	 	 <ul clas"lie-biao">
+		 	 	 	 <!-- 家用电器 -->
+		 	 	 	 <li class="lie-biao-li" style="margin-top:15px;">
+		 	 	 	 	<a href="javascript:;" class="one-wd">家用电器</a>
+		 	 	 	 	 <!-- 二级菜单隐藏域 -->
+				 	 	 <div class="dis-none">
+				 	 	 	 <div class="dis-l fl">
+				 	 	 	 	 <ul>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">惠战5.1<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家电馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">智能生活馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">京东净化罐<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	     <li><a href="javascript:;" class="top">城市体验馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家电众筹管<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 <div class="cb"></div>
+				 	 	 	 	 </ul> 
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	<dt><a href="javascript:;">电视<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	<dd>
+				 	 	 	 	 	 	<a href="javascript:;">曲面电视</a>
+				 	 	 	 	 	    <a href="javascript:;">超薄电视</a>
+				 	 	 	 	 	    <a href="javascript:;">HRD电视</a>
+				 	 	 	 	 	    <a href="javascript:;">OLED电视</a>
+				 	 	 	 	 	    <a href="javascript:;">4K超清电视</a>
+				 	 	 	 	 	    <a href="javascript:;">55英寸</a>
+				 	 	 	 	 	    <a href="javascript:;">65英寸</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">电视配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">空调<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">壁挂式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">柜式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">中央空调</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">洗衣机<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">冰箱<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">厨卫大电<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">油烟机</a>
+				 	 	 	 	 	    <a href="javascript:;">燃气灶</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">互联网品牌</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">厨房小电<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">生活电器<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">个护健康<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd  style="border-bottom:none;">
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 </div>
+				 	 	 	 <img src="image/slide.jpg" class="fr">
+				 	 	 </div>
+		 	 	 	 </li>
+		 	 	 	 <li class="lie-biao-li">
+		 	 	 	 	<a href="javascript:;">手机</a> / <a href="javascript:;">运营商</a> / <a href="javascript:;">数码</a>
+		 	 	 	 	<!-- 二级菜单隐藏域 -->
+				 	 	 <div class="dis-none">
+				 	 	 	 <div class="dis-l fl">
+				 	 	 	 	 <ul>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">玩3C<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">手机频道<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">网上营业厅<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">京东净化罐<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	     <li><a href="javascript:;" class="top">城市体验馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家电众筹管<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 <div class="cb"></div>
+				 	 	 	 	 </ul> 
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	<dt><a href="javascript:;">手机通讯<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	<dd>
+				 	 	 	 	 	 	<a href="javascript:;">曲面电视</a>
+				 	 	 	 	 	    <a href="javascript:;">超薄电视</a>
+				 	 	 	 	 	    <a href="javascript:;">HRD电视</a>
+				 	 	 	 	 	    <a href="javascript:;">OLED电视</a>
+				 	 	 	 	 	    <a href="javascript:;">4K超清电视</a>
+				 	 	 	 	 	    <a href="javascript:;">55英寸</a>
+				 	 	 	 	 	    <a href="javascript:;">65英寸</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">电视配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">运营商<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">壁挂式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">柜式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">中央空调</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">手机配件<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">摄影摄像<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">数码配件<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">油烟机</a>
+				 	 	 	 	 	    <a href="javascript:;">燃气灶</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">互联网品牌</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">影音娱乐<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">智能设备<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">电子教育<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd  style="border-bottom:none;">
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 </div> 
+				 	 	     <img src="image/slide.jpg" class="fr">
+				 	 	 </div>
+		 	 	 	 </li>
+		 	 	 	 <li class="lie-biao-li">
+		 	 	 	 	<a href="javascript:;">电脑</a> / <a href="javascript:;">办公</a>
+		 	 	 	 	<!-- 二级菜单隐藏域 -->
+				 	 	 <div class="dis-none">
+				 	 	 	 <div class="dis-l fl">
+				 	 	 	 	 <ul>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">惠战5.1<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家电馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">智能生活馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">京东净化罐<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	     <li><a href="javascript:;" class="top">城市体验馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家电众筹管<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 <div class="cb"></div>
+				 	 	 	 	 </ul> 
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	<dt><a href="javascript:;">电脑整机<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	<dd>
+				 	 	 	 	 	 	<a href="javascript:;">曲面电视</a>
+				 	 	 	 	 	    <a href="javascript:;">超薄电视</a>
+				 	 	 	 	 	    <a href="javascript:;">HRD电视</a>
+				 	 	 	 	 	    <a href="javascript:;">OLED电视</a>
+				 	 	 	 	 	    <a href="javascript:;">4K超清电视</a>
+				 	 	 	 	 	    <a href="javascript:;">55英寸</a>
+				 	 	 	 	 	    <a href="javascript:;">65英寸</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">电视配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">电脑配件<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">壁挂式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">柜式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">中央空调</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">外设产品<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">游戏设备<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">网络产品<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">油烟机</a>
+				 	 	 	 	 	    <a href="javascript:;">燃气灶</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">互联网品牌</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">办公设备<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">文具耗材<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">服务产品<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd  style="border-bottom:none;">
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 </div> 
+				 	 	     <img src="image/slide.jpg" class="fr">
+				 	 	 </div>
+		 	 	 	 </li>
+		 	 	 	 <li class="lie-biao-li">
+		 	 	 	 	<a href="javascript:;">家居</a> / <a href="javascript:;">家具</a> / <a href="javascript:;">家装</a> / <a href="javascript:;">厨具</a>
+		 	 	 	 	<!-- 二级菜单隐藏域 -->
+				 	 	 <div class="dis-none">
+				 	 	 	 <div class="dis-l fl">
+				 	 	 	 	 <ul>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家装城<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">居家日用<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">精品家具<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家装建材<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	     <li><a href="javascript:;" class="top">城市体验馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家电众筹管<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 <div class="cb"></div>
+				 	 	 	 	 </ul> 
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	<dt><a href="javascript:;">厨具<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	<dd>
+				 	 	 	 	 	 	<a href="javascript:;">曲面电视</a>
+				 	 	 	 	 	    <a href="javascript:;">超薄电视</a>
+				 	 	 	 	 	    <a href="javascript:;">HRD电视</a>
+				 	 	 	 	 	    <a href="javascript:;">OLED电视</a>
+				 	 	 	 	 	    <a href="javascript:;">4K超清电视</a>
+				 	 	 	 	 	    <a href="javascript:;">55英寸</a>
+				 	 	 	 	 	    <a href="javascript:;">65英寸</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">电视配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">家纺<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">壁挂式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">柜式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">中央空调</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">生活日用<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">家装软饰<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">灯具<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">油烟机</a>
+				 	 	 	 	 	    <a href="javascript:;">燃气灶</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">互联网品牌</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">家具<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">家装主材<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">厨房卫浴<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd  style="border-bottom:none;">
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 </div> 
+				 	 	     <img src="image/slide.jpg" class="fr">
+				 	 	 </div>
+		 	 	 	 </li>
+		 	 	 	 <li class="lie-biao-li">
+		 	 	 	 	<a href="javascript:;">男装</a> / <a href="javascript:;">女装</a> / <a href="javascript:;">童装</a> / <a href="javascript:;">内衣</a>
+		 	 	 	 	<!-- 二级菜单隐藏域 -->
+				 	 	 <div class="dis-none">
+				 	 	 	 <div class="dis-l fl">
+				 	 	 	 	 <ul>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">女装<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">男装<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	     <li><a href="javascript:;" class="top">内衣<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家电众筹管<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">惠战5.1<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家电馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 <div class="cb"></div>
+				 	 	 	 	 </ul> 
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	<dt><a href="javascript:;">女装<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	<dd>
+				 	 	 	 	 	 	<a href="javascript:;">曲面电视</a>
+				 	 	 	 	 	    <a href="javascript:;">超薄电视</a>
+				 	 	 	 	 	    <a href="javascript:;">HRD电视</a>
+				 	 	 	 	 	    <a href="javascript:;">OLED电视</a>
+				 	 	 	 	 	    <a href="javascript:;">4K超清电视</a>
+				 	 	 	 	 	    <a href="javascript:;">55英寸</a>
+				 	 	 	 	 	    <a href="javascript:;">65英寸</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">电视配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">男装<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">壁挂式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">柜式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">中央空调</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">内衣<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">配饰<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">童装童鞋<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">油烟机</a>
+				 	 	 	 	 	    <a href="javascript:;">燃气灶</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">互联网品牌</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">厨房小电<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">生活电器<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">个护健康<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd  style="border-bottom:none;">
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 </div> 
+				 	 	     <img src="image/slide.jpg" class="fr">
+				 	 	 </div>
+		 	 	 	 </li>
+		 	 	 	 <li class="lie-biao-li">
+		 	 	 	 	<a href="javascript:;">美妆个护</a> / <a href="javascript:;">宠物</a>
+		 	 	 	 	<!-- 二级菜单隐藏域 -->
+				 	 	 <div class="dis-none">
+				 	 	 	 <div class="dis-l fl">
+				 	 	 	 	 <ul>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">清洁用品<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">美妆馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">个护馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">京东净化罐<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	     <li><a href="javascript:;" class="top">城市体验馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家电众筹管<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 <div class="cb"></div>
+				 	 	 	 	 </ul> 
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	<dt><a href="javascript:;">面部护肤<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	<dd>
+				 	 	 	 	 	 	<a href="javascript:;">曲面电视</a>
+				 	 	 	 	 	    <a href="javascript:;">超薄电视</a>
+				 	 	 	 	 	    <a href="javascript:;">HRD电视</a>
+				 	 	 	 	 	    <a href="javascript:;">OLED电视</a>
+				 	 	 	 	 	    <a href="javascript:;">4K超清电视</a>
+				 	 	 	 	 	    <a href="javascript:;">55英寸</a>
+				 	 	 	 	 	    <a href="javascript:;">65英寸</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">电视配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">洗发护发<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">壁挂式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">柜式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">中央空调</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">身体护理<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">口腔护理<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">女性护理<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">油烟机</a>
+				 	 	 	 	 	    <a href="javascript:;">燃气灶</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">互联网品牌</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">香水彩妆<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">清洁用品<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">宠物生活<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd  style="border-bottom:none;">
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 </div> 
+				 	 	     <img src="image/slide.jpg" class="fr">
+				 	 	 </div>
+		 	 	 	 </li>
+		 	 	 	 <li class="lie-biao-li">
+		 	 	 	 	<a href="javascript:;">女鞋</a> / <a href="javascript:;">箱包 </a> / <a href="javascript:;">钟表</a> / <a href="javascript:;">珠宝</a>
+		 	 	 	    <!-- 二级菜单隐藏域 -->
+				 	 	 <div class="dis-none">
+				 	 	 	 <div class="dis-l fl">
+				 	 	 	 	 <ul>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">玩3C<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">手机频道<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">网上营业厅<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">京东净化罐<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	     <li><a href="javascript:;" class="top">城市体验馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家电众筹管<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 <div class="cb"></div>
+				 	 	 	 	 </ul> 
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	<dt><a href="javascript:;">手机通讯<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	<dd>
+				 	 	 	 	 	 	<a href="javascript:;">曲面电视</a>
+				 	 	 	 	 	    <a href="javascript:;">超薄电视</a>
+				 	 	 	 	 	    <a href="javascript:;">HRD电视</a>
+				 	 	 	 	 	    <a href="javascript:;">OLED电视</a>
+				 	 	 	 	 	    <a href="javascript:;">4K超清电视</a>
+				 	 	 	 	 	    <a href="javascript:;">55英寸</a>
+				 	 	 	 	 	    <a href="javascript:;">65英寸</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">电视配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">时尚女鞋<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">壁挂式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">柜式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">中央空调</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">潮流女包<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">精品男包<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">精选大牌<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">油烟机</a>
+				 	 	 	 	 	    <a href="javascript:;">燃气灶</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">互联网品牌</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">钟表<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">珠宝首饰<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">金银投资<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd  style="border-bottom:none;">
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 </div> 
+				 	 	     <img src="image/slide.jpg" class="fr">
+				 	 	 </div>
+		 	 	 	 </li>
+		 	 	 	 <li class="lie-biao-li">
+		 	 	 	 	<a href="javascript:;">男鞋</a> / <a href="javascript:;">运动 </a> / <a href="javascript:;">户外</a>
+		 	 	 	 	<!-- 二级菜单隐藏域 -->
+				 	 	 <div class="dis-none">
+				 	 	 	 <div class="dis-l fl">
+				 	 	 	 	 <ul>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">玩3C<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">手机频道<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">网上营业厅<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">京东净化罐<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	     <li><a href="javascript:;" class="top">城市体验馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家电众筹管<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 <div class="cb"></div>
+				 	 	 	 	 </ul> 
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	<dt><a href="javascript:;">流行男鞋<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	<dd>
+				 	 	 	 	 	 	<a href="javascript:;">曲面电视</a>
+				 	 	 	 	 	    <a href="javascript:;">超薄电视</a>
+				 	 	 	 	 	    <a href="javascript:;">HRD电视</a>
+				 	 	 	 	 	    <a href="javascript:;">OLED电视</a>
+				 	 	 	 	 	    <a href="javascript:;">4K超清电视</a>
+				 	 	 	 	 	    <a href="javascript:;">55英寸</a>
+				 	 	 	 	 	    <a href="javascript:;">65英寸</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">电视配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">运动鞋包<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">壁挂式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">柜式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">中央空调</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">运动服饰<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">健身训练<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">汽车运动<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">油烟机</a>
+				 	 	 	 	 	    <a href="javascript:;">燃气灶</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">互联网品牌</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">体育用品<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">户外鞋服<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">户外装备<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd  style="border-bottom:none;">
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 </div> 
+				 	 	     <img src="image/slide.jpg" class="fr">
+				 	 	 </div>
+		 	 	 	 </li>
+		 	 	 	 <li class="lie-biao-li">
+		 	 	 	 	<a href="javascript:;">汽车</a> / <a href="javascript:;">汽车用品</a>
+		 	 	 	 	<!-- 二级菜单隐藏域 -->
+				 	 	 <div class="dis-none">
+				 	 	 	 <div class="dis-l fl">
+				 	 	 	 	 <ul>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">玩3C<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">手机频道<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">网上营业厅<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">京东净化罐<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	     <li><a href="javascript:;" class="top">城市体验馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家电众筹管<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 <div class="cb"></div>
+				 	 	 	 	 </ul> 
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	<dt><a href="javascript:;">汽车车型<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	<dd>
+				 	 	 	 	 	 	<a href="javascript:;">曲面电视</a>
+				 	 	 	 	 	    <a href="javascript:;">超薄电视</a>
+				 	 	 	 	 	    <a href="javascript:;">HRD电视</a>
+				 	 	 	 	 	    <a href="javascript:;">OLED电视</a>
+				 	 	 	 	 	    <a href="javascript:;">4K超清电视</a>
+				 	 	 	 	 	    <a href="javascript:;">55英寸</a>
+				 	 	 	 	 	    <a href="javascript:;">65英寸</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">电视配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">汽车价格<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">壁挂式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">柜式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">中央空调</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">汽车品牌<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">维修保养<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">汽车展示<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">油烟机</a>
+				 	 	 	 	 	    <a href="javascript:;">燃气灶</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">互联网品牌</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">车载电源<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">美容清洗<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">安全自驾<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd  style="border-bottom:none;">
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 </div> 
+				 	         <img src="image/slide.jpg" class="fr">
+				 	 	 </div>
+		 	 	 	 </li>
+		 	 	 	 <li class="lie-biao-li">
+		 	 	 	 	<a href="javascript:;">母婴</a> / <a href="javascript:;">玩具乐器</a>
+		 	 	 	 	<!-- 二级菜单隐藏域 -->
+				 	 	 <div class="dis-none">
+				 	 	 	 <div class="dis-l fl">
+				 	 	 	 	 <ul>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">玩3C<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">手机频道<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">网上营业厅<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">京东净化罐<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	     <li><a href="javascript:;" class="top">城市体验馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家电众筹管<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 <div class="cb"></div>
+				 	 	 	 	 </ul> 
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	<dt><a href="javascript:;">奶粉<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	<dd>
+				 	 	 	 	 	 	<a href="javascript:;">曲面电视</a>
+				 	 	 	 	 	    <a href="javascript:;">超薄电视</a>
+				 	 	 	 	 	    <a href="javascript:;">HRD电视</a>
+				 	 	 	 	 	    <a href="javascript:;">OLED电视</a>
+				 	 	 	 	 	    <a href="javascript:;">4K超清电视</a>
+				 	 	 	 	 	    <a href="javascript:;">55英寸</a>
+				 	 	 	 	 	    <a href="javascript:;">65英寸</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">电视配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">营养辅食<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">壁挂式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">柜式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">中央空调</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">尿裤湿巾<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">喂养用品<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">洗护用品<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">油烟机</a>
+				 	 	 	 	 	    <a href="javascript:;">燃气灶</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">互联网品牌</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">青桔服饰<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">妈妈专区<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">童车童床<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd  style="border-bottom:none;">
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 </div> 
+				 	 	     <img src="image/slide.jpg" class="fr">
+				 	 	 </div>
+		 	 	 	 </li>
+		 	 	 	 <li class="lie-biao-li">
+		 	 	 	 	<a href="javascript:;">食品</a> / <a href="javascript:;">酒类</a> / <a href="javascript:;">生鲜</a> / <a href="javascript:;">特产</a>
+		 	 	 	    <!-- 二级菜单隐藏域 -->
+				 	 	 <div class="dis-none">
+				 	 	 	 <div class="dis-l fl">
+				 	 	 	 	 <ul>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">玩3C<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">手机频道<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">网上营业厅<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">京东净化罐<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	     <li><a href="javascript:;" class="top">城市体验馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家电众筹管<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 <div class="cb"></div>
+				 	 	 	 	 </ul> 
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	<dt><a href="javascript:;">新鲜水果<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	<dd>
+				 	 	 	 	 	 	<a href="javascript:;">曲面电视</a>
+				 	 	 	 	 	    <a href="javascript:;">超薄电视</a>
+				 	 	 	 	 	    <a href="javascript:;">HRD电视</a>
+				 	 	 	 	 	    <a href="javascript:;">OLED电视</a>
+				 	 	 	 	 	    <a href="javascript:;">4K超清电视</a>
+				 	 	 	 	 	    <a href="javascript:;">55英寸</a>
+				 	 	 	 	 	    <a href="javascript:;">65英寸</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">电视配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">蔬菜单片<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">壁挂式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">柜式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">中央空调</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">精选肉类<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">海鲜水产<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">冷饮董事<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">油烟机</a>
+				 	 	 	 	 	    <a href="javascript:;">燃气灶</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">互联网品牌</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">中外名酒<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">进口食品<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">休闲食品<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd  style="border-bottom:none;">
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 </div> 
+				 	 	     <img src="image/slide.jpg" class="fr">
+				 	 	 </div>
+		 	 	 	 </li>
+		 	 	 	 <li class="lie-biao-li">
+		 	 	 	 	<a href="javascript:;">医疗保健</a> / <a href="javascript:;">计生情趣</a>
+		 	 	 	 	<!-- 二级菜单隐藏域 -->
+				 	 	 <div class="dis-none">
+				 	 	 	 <div class="dis-l fl">
+				 	 	 	 	 <ul>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">玩3C<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">手机频道<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">网上营业厅<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">京东净化罐<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	     <li><a href="javascript:;" class="top">城市体验馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家电众筹管<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 <div class="cb"></div>
+				 	 	 	 	 </ul> 
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	<dt><a href="javascript:;">中西药品<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	<dd>
+				 	 	 	 	 	 	<a href="javascript:;">曲面电视</a>
+				 	 	 	 	 	    <a href="javascript:;">超薄电视</a>
+				 	 	 	 	 	    <a href="javascript:;">HRD电视</a>
+				 	 	 	 	 	    <a href="javascript:;">OLED电视</a>
+				 	 	 	 	 	    <a href="javascript:;">4K超清电视</a>
+				 	 	 	 	 	    <a href="javascript:;">55英寸</a>
+				 	 	 	 	 	    <a href="javascript:;">65英寸</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">电视配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">营养健康<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">壁挂式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">柜式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">中央空调</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">滋补养生<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">计生情趣<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">保健器械<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">油烟机</a>
+				 	 	 	 	 	    <a href="javascript:;">燃气灶</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">互联网品牌</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">护理护具<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">隐形眼镜<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">电子教育<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd  style="border-bottom:none;">
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 </div> 
+				 	 	     <img src="image/slide.jpg" class="fr">
+				 	 	 </div>
+		 	 	 	 </li>
+		 	 	 	 <li class="lie-biao-li">
+		 	 	 	 	<a href="javascript:;">图书</a> / <a href="javascript:;">音像</a> / <a href="javascript:;">电子书</a>
+		 	 	 	 	<!-- 二级菜单隐藏域 -->
+				 	 	 <div class="dis-none">
+				 	 	 	 <div class="dis-l fl">
+				 	 	 	 	 <ul>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">玩3C<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">手机频道<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">网上营业厅<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">京东净化罐<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	     <li><a href="javascript:;" class="top">城市体验馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家电众筹管<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 <div class="cb"></div>
+				 	 	 	 	 </ul> 
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	<dt><a href="javascript:;">邮币<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	<dd>
+				 	 	 	 	 	 	<a href="javascript:;">曲面电视</a>
+				 	 	 	 	 	    <a href="javascript:;">超薄电视</a>
+				 	 	 	 	 	    <a href="javascript:;">HRD电视</a>
+				 	 	 	 	 	    <a href="javascript:;">OLED电视</a>
+				 	 	 	 	 	    <a href="javascript:;">4K超清电视</a>
+				 	 	 	 	 	    <a href="javascript:;">55英寸</a>
+				 	 	 	 	 	    <a href="javascript:;">65英寸</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">电视配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">少儿<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">壁挂式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">柜式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">中央空调</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">教育<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">文艺<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">经管励志<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">油烟机</a>
+				 	 	 	 	 	    <a href="javascript:;">燃气灶</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">互联网品牌</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">人文社科<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">生活<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">科技<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd  style="border-bottom:none;">
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 </div> 
+				 	 	     <img src="image/slide.jpg" class="fr">
+				 	 	 </div>
+		 	 	 	 </li>
+		 	 	     <li class="lie-biao-li">
+		 	 	     	<a href="javascript:;">机票</a> / <a href="javascript:;">酒店</a> / <a href="javascript:;">旅游</a> / <a href="javascript:;">生活</a>
+		 	 	        <!-- 二级菜单隐藏域 -->
+				 	 	 <div class="dis-none">
+				 	 	 	 <div class="dis-l fl">
+				 	 	 	 	 <ul>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">玩3C<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">手机频道<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">网上营业厅<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">京东净化罐<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	     <li><a href="javascript:;" class="top">城市体验馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家电众筹管<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 <div class="cb"></div>
+				 	 	 	 	 </ul> 
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	<dt><a href="javascript:;">交通出行<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	<dd>
+				 	 	 	 	 	 	<a href="javascript:;">曲面电视</a>
+				 	 	 	 	 	    <a href="javascript:;">超薄电视</a>
+				 	 	 	 	 	    <a href="javascript:;">HRD电视</a>
+				 	 	 	 	 	    <a href="javascript:;">OLED电视</a>
+				 	 	 	 	 	    <a href="javascript:;">4K超清电视</a>
+				 	 	 	 	 	    <a href="javascript:;">55英寸</a>
+				 	 	 	 	 	    <a href="javascript:;">65英寸</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">电视配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">酒店预订<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">壁挂式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">柜式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">中央空调</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">旅游度假<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">商旅服务<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">演出票务<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">油烟机</a>
+				 	 	 	 	 	    <a href="javascript:;">燃气灶</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">互联网品牌</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">生活缴费<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">生活服务<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">教育培训<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd  style="border-bottom:none;">
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 </div> 
+				 	 	     <img src="image/slide.jpg" class="fr">
+				 	 	 </div>
+		 	 	     </li>
+		 	 	 	 <li class="lie-biao-li">
+		 	 	 	 	<a href="javascript:;">理财</a> / <a href="javascript:;">众筹</a> / <a href="javascript:;">白条</a> / <a href="javascript:;">保险</a>
+		 	 	 	    <!-- 二级菜单隐藏域 -->
+				 	 	 <div class="dis-none">
+				 	 	 	 <div class="dis-l fl">
+				 	 	 	 	 <ul>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">玩3C<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">手机频道<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">网上营业厅<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">京东净化罐<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	     <li><a href="javascript:;" class="top">城市体验馆<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 	 <li><a href="javascript:;" class="top">家电众筹管<i class="fa fa-angle-right"></i></a></li>
+				 	 	 	 	 <div class="cb"></div>
+				 	 	 	 	 </ul> 
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	<dt><a href="javascript:;">理财<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	<dd>
+				 	 	 	 	 	 	<a href="javascript:;">曲面电视</a>
+				 	 	 	 	 	    <a href="javascript:;">超薄电视</a>
+				 	 	 	 	 	    <a href="javascript:;">HRD电视</a>
+				 	 	 	 	 	    <a href="javascript:;">OLED电视</a>
+				 	 	 	 	 	    <a href="javascript:;">4K超清电视</a>
+				 	 	 	 	 	    <a href="javascript:;">55英寸</a>
+				 	 	 	 	 	    <a href="javascript:;">65英寸</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">电视配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">众筹<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">壁挂式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">柜式空调</a>
+				 	 	 	 	 	    <a href="javascript:;">中央空调</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">东家<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">白条<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">钱包<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">油烟机</a>
+				 	 	 	 	 	    <a href="javascript:;">燃气灶</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">互联网品牌</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">保险<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饭煲</a>
+				 	 	 	 	 	    <a href="javascript:;">微波炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电烤箱</a>
+				 	 	 	 	 	    <a href="javascript:;">电磁炉</a>
+				 	 	 	 	 	    <a href="javascript:;">电压力锅</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;">咖啡机</a>
+				 	 	 	 	 	    <a href="javascript:;">面包机</a>
+				 	 	 	 	 	    <a href="javascript:;">榨汁机</a>
+				 	 	 	 	 	    <a href="javascript:;">料理机</a>
+				 	 	 	 	 	    <a href="javascript:;">电饼铛</a>
+				 	 	 	 	 	    <a href="javascript:;">豆浆机</a>
+				 	 	 	 	 	    <a href="javascript:;" style="border-right:none;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">股票<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd>
+				 	 	 	 	 	 	<a href="javascript:;">滚筒洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗烘一体机</a>
+				 	 	 	 	 	    <a href="javascript:;">波轮洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">迷你洗衣机</a>
+				 	 	 	 	 	    <a href="javascript:;">洗衣机配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 	 <dl class="fl">
+				 	 	 	 	 	 <dt><a href="javascript:;">电子教育<i class="fa fa-angle-right"></i></a></dt>
+				 	 	 	 	 	 <dd  style="border-bottom:none;">
+				 	 	 	 	 	 	<a href="javascript:;">多门</a>
+				 	 	 	 	 	    <a href="javascript:;">对开门</a>
+				 	 	 	 	 	    <a href="javascript:;">三门</a>
+				 	 	 	 	 	    <a href="javascript:;">双门</a>
+				 	 	 	 	 	    <a href="javascript:;">冰柜</a>
+				 	 	 	 	 	    <a href="javascript:;">空调配件</a>
+				 	 	 	 	 	 </dd>
+				 	 	 	 	 </dl>
+				 	 	 	 </div> 
+				 	 	 </div>
+		 	 	 	 </li>
+		 	 	 </ul>
+		 	 	 
+		 	 </div>
+		 	 <!--轮播开始-->
+		 	 <div class="banner-center fl">
+		 	 	 <div id="one" class="box-swipe">
+		 	 	 	 <ul>
+			          <li><a href="Details/products-details.html" rel="external"><img src="image/lunbo1.jpg" alt="1"/></a></li>
+			          <li><a href="Details/products-details.html" rel="external"><img src="image/lunbo2.jpg" alt="1"/></a></li>
+			          <li><a href="Details/products-details.html" rel="external"><img src="image/lunbo3.jpg" alt="1"/></a></li>
+			          <li><a href="Details/products-details.html" rel="external"><img src="image/lunbo4.jpg" alt="1"/></a></li>
+			          <li><a href="Details/products-details.html" rel="external"><img src="image/lunbo5.jpg" alt="1"/></a></li>
+			       </ul>
+			       <ul id="two">
+			          <li class="on"></li>
+			          <li></li>
+			          <li></li>
+			          <li></li>
+			          <li></li>
+			        </ul>
+			        <!--<div class="slider-page">
+						<a href="javascript:void(0)" id="left"><</a>
+					    <a href="javascript:void(0)" id="right">></a>
+				   </div>-->
+		 	 	 </div>
+		 	 	 <div class="banner-bottom">
+		 	 	 	 <img src="image/banner-bottom1.png" alt="1"/></a>
+		 	 	 	 <img src="image/banner-bottom2.png" alt="1" style="margin-left:10px;"/></a>
+		 	 	 </div>
+		 	 </div>
+		 	 <!--右侧会员-->
+		 	 <div class="banner-right fl">
+		 	 	 <div class="welcome">
+		 	 	 	 <a href="javascript:;"><img src="image/no-img_mid_.jpg"></a>
+		 	 	 	 <span class="fl">Hi,欢迎来到京东...</span>
+		 	 	 	 <div class="deng">
+		 	 	 	 	 <a href="javascript:;" class="wd">登录</a>
+		 	 	 	     <a href="javascript:;" class="wd">注册</a>
+		 	 	 	 </div>
+		 	 	 	 <div class="new">
+		 	 	 	 	 <a href="javascript:;">新人福利</a>
+		 	 	 	 	 <a href="javascript:;">PLUS会员</a>
+		 	 	 	 </div>	 		 	 	 	 
+		 	 	 </div>
+		 	 	 <div class="tishi">
+		 	 	 	 <ul class="biaoti fl">
+		 	 	 	 	 <li>京东快报</li>
+		 	 	 	 	 <li style="width:30px;float: right;"><a hre="#" class="wd">更多</a></li>
+		 	 	 	 </ul>
+		 	 	 	 <ul class="cuxiao">
+	 	 	 	    	<li><a href="javascript:;" class="wd">家电满5000送1999礼券</a></li>
+	 	 	 	    	<li><a href="javascript:;" class="wd">9.9元起 五一嗨不停</a></li>
+	 	 	 	    	<li><a href="javascript:;" class="wd">约惠出游，生鲜满159减30</a></li>
+	 	 	 	    	<li><a href="javascript:;" class="wd">每日享折扣，京东品质游</a></li>
+	 	 	 	   </ul>
+		 	 	 </div>
+		 	 	 <div class="idea">
+		 	 	 	 <table>
+		 	 	 	 	<tr>
+		 	 	 	 		<td>
+		 	 	 	 			<a href="javascript:;" class="wd">
+		 	 	 	 				<i class="fa fa-plane fa-2x"></i><br/>机票
+		 	 	 	 			</a>
+		 	 	 	 		</td>
+		 	 	 	 		<td>
+		 	 	 	 			<a href="javascript:;" class="wd">
+		 	 	 	 				<i class="fa fa-taxi fa-2x"></i><br/>酒店
+		 	 	 	 			</a>
+		 	 	 	 		</td>
+		 	 	 	 		<td>
+		 	 	 	 			<a href="javascript:;" class="wd">
+		 	 	 	 				<i class="fa fa-phone fa-2x"></i><br/>话费
+		 	 	 	 			</a>
+		 	 	 	 		</td>
+		 	 	 	 		<td>
+		 	 	 	 			<a href="javascript:;" class="wd">
+		 	 	 	 				<i class="fa fa-qq fa-2x"></i><br/>游戏
+		 	 	 	 			</a>
+		 	 	 	 		</td>
+		 	 	 	 	</tr>
+		 	 	 	 	<tr>
+		 	 	 	 		<td>
+		 	 	 	 			<a href="javascript:;" class="wd">
+		 	 	 	 				<i class="fa fa-plane fa-2x"></i><br/>机票
+		 	 	 	 			</a>
+		 	 	 	 		</td>
+		 	 	 	 		<td>
+		 	 	 	 			<a href="javascript:;" class="wd">
+		 	 	 	 				<i class="fa fa-taxi fa-2x"></i><br/>酒店
+		 	 	 	 			</a>
+		 	 	 	 		</td>
+		 	 	 	 		<td>
+		 	 	 	 			<a href="javascript:;" class="wd">
+		 	 	 	 				<i class="fa fa-phone fa-2x"></i><br/>话费
+		 	 	 	 			</a>
+		 	 	 	 		</td>
+		 	 	 	 		<td>
+		 	 	 	 			<a href="javascript:;" class="wd">
+		 	 	 	 				<i class="fa fa-qq fa-2x"></i><br/>游戏
+		 	 	 	 			</a>
+		 	 	 	 		</td>
+		 	 	 	 	</tr>
+		 	 	 	 	<tr>
+		 	 	 	 		<td>
+		 	 	 	 			<a href="javascript:;" class="wd">
+		 	 	 	 				<i class="fa fa-plane fa-2x"></i><br/>机票
+		 	 	 	 			</a>
+		 	 	 	 		</td>
+		 	 	 	 		<td>
+		 	 	 	 			<a href="javascript:;" class="wd">
+		 	 	 	 				<i class="fa fa-taxi fa-2x"></i><br/>酒店
+		 	 	 	 			</a>
+		 	 	 	 		</td>
+		 	 	 	 		<td>
+		 	 	 	 			<a href="javascript:;" class="wd">
+		 	 	 	 				<i class="fa fa-phone fa-2x"></i><br/>话费
+		 	 	 	 			</a>
+		 	 	 	 		</td>
+		 	 	 	 		<td>
+		 	 	 	 			<a href="javascript:;" class="wd">
+		 	 	 	 				<i class="fa fa-qq fa-2x"></i><br/>游戏
+		 	 	 	 			</a>
+		 	 	 	 		</td>
+		 	 	 	 	</tr>
+		 	 	 	 	<tr>
+		 	 	 	 		<td>
+		 	 	 	 			<a href="javascript:;" class="wd">
+		 	 	 	 				<i class="fa fa-plane fa-2x"></i><br/>机票
+		 	 	 	 			</a>
+		 	 	 	 		</td>
+		 	 	 	 		<td>
+		 	 	 	 			<a href="javascript:;" class="wd">
+		 	 	 	 				<i class="fa fa-taxi fa-2x"></i><br/>酒店
+		 	 	 	 			</a>
+		 	 	 	 		</td>
+		 	 	 	 		<td>
+		 	 	 	 			<a href="javascript:;" class="wd">
+		 	 	 	 				<i class="fa fa-phone fa-2x"></i><br/>话费
+		 	 	 	 			</a>
+		 	 	 	 		</td>
+		 	 	 	 		<td>
+		 	 	 	 			<a href="javascript:;" class="wd">
+		 	 	 	 				<i class="fa fa-qq fa-2x"></i><br/>游戏
+		 	 	 	 			</a>
+		 	 	 	 		</td>
+		 	 	 	 	</tr>
+		 	 	 	 </table>
+		 	 	 </div>
+		 	 </div>
+		 </div>
+		 <!--京东秒杀-->
+		 <div class="miaosha">
+		 	 <div class="miaosha-top">
+		 	 	 <span>京东秒杀</span>
+		 	 	 <a href="javascript:;">总有你想不到的低价&nbsp;<i class="fa fa-chevron-circle-right"></i></a>
+		 	 	 <div class="time fr">
+		 	 	 	<span>当前场次</span>
+		 	 	 	<span id="t_h">00</span><span class="point">:</span>
+			        <span id="t_m">00</span><span class="point">:</span>
+			        <span id="t_s">00</span>
+		 	 	 	<span>后结束抢购</span>
+		 	 	 </div>
+		 	 </div>
+             <div class="miaosha-cen">
+             	<div class="miao-left">
+             	    <div class="dir dirl"><a href="javascript:;">&lt;</a></div>
+				    <div class="dir dirr"><a href="javascript:;">&gt;</a></div>
+				    <ul class="mainlist">
+	 	 	 	 	 <li>
+	 	 	 	 	 	 <div class="p-img">
+	 	 	 	 	 	 	 <a href="javascript:;"><img src="images/56543327N1ecaef4f.jpg"></a>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 	 <div class="p-info">
+	 	 	 	 	 	 	 <a href="javascript:;" class="wd">小米（MI）红米note3 双卡双待 智能 手机 金色</a>
+	 	 	 	 	 	 	 <i class="for-price">￥</i><span class="price">2199.0</span>&nbsp;&nbsp;<i>￥</i><span class="old-price">2399.0</span>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 </li>
+	 	 	 	 	 <li>
+	 	 	 	 	 	 <div class="p-img">
+	 	 	 	 	 	 	 <a href="javascript:;"><img src="images/555affefN75bf81ed.jpg"></a>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 	 <div class="p-info">
+	 	 	 	 	 	 	 <a href="javascript:;" class="wd">小米4 移动合约版 黑色 移动4G手机 不含合约计划</a>
+	 	 	 	 	 	 	 <i class="for-price">￥</i><span class="price">1499.0</span>&nbsp;&nbsp;<i>￥</i><span class="old-price">1599.0</span>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 </li>
+	 	 	 	 	 <li>
+	 	 	 	 	 	 <div class="p-img">
+	 	 	 	 	 	 	 <a href="javascript:;"><img src="images/55376141Na63cbc04.jpg"></a>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 	 <div class="p-info">
+	 	 	 	 	 	 	 <a href="javascript:;" class="wd">勾勾手 重力方向盘无线遥控车 儿童玩具车汽车模型 漂移 </a>
+	 	 	 	 	 	 	 <i class="for-price">￥</i><span class="price">589.0</span>&nbsp;&nbsp;<i>￥</i><span class="old-price">629.0</span>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 </li>
+	 	 	 	 	 <li>
+	 	 	 	 	 	 <div class="p-img">
+	 	 	 	 	 	 	 <a href="javascript:;"><img src="images/56849f79N5041bd59.jpg"></a>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 	 <div class="p-info">
+	 	 	 	 	 	 	 <a href="javascript:;" class="wd">【明星同款 年终清仓】吉普盾NIAN JEEP男女情侣款两件套</a>
+	 	 	 	 	 	 	 <i class="for-price">￥</i><span class="price">399.0</span>&nbsp;&nbsp;<i>￥</i><span class="old-price">499.0</span>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 </li>
+	 	 	 	 	 <li>
+	 	 	 	 	 	 <div class="p-img">
+	 	 	 	 	 	 	 <a href="javascript:;"><img src="images/55d17800N1b88605f.jpg"></a>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 	 <div class="p-info">
+	 	 	 	 	 	 	 <a href="javascript:;" class="wd">小米（MI）小米蓝牙耳机-黑色(3G RAM+32G ROM)标配</a>
+	 	 	 	 	 	 	 <i class="for-price">￥</i><span class="price">79.0</span>&nbsp;&nbsp;<i>￥</i><span class="old-price">99.0</span>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 </li>
+	 	 	 	 	 <li>
+	 	 	 	 	 	 <div class="p-img">
+	 	 	 	 	 	 	 <a href="javascript:;"><img src="images/56543327N1ecaef4f.jpg"></a>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 	 <div class="p-info">
+	 	 	 	 	 	 	 <a href="javascript:;" class="wd">小米（MI）红米note3 双卡双待 智能 手机 金色</a>
+	 	 	 	 	 	 	 <i class="for-price">￥</i><span class="price">2199.0</span>&nbsp;&nbsp;<i>￥</i><span class="old-price">2399.0</span>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 </li>
+	 	 	 	 	 <li>
+	 	 	 	 	 	 <div class="p-img">
+	 	 	 	 	 	 	 <a href="javascript:;"><img src="images/555affefN75bf81ed.jpg"></a>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 	 <div class="p-info">
+	 	 	 	 	 	 	 <a href="javascript:;" class="wd">小米4 移动合约版 黑色 移动4G手机 不含合约计划</a>
+	 	 	 	 	 	 	 <i class="for-price">￥</i><span class="price">1499.0</span>&nbsp;&nbsp;<i>￥</i><span class="old-price">1599.0</span>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 </li>
+	 	 	 	 	 <li>
+	 	 	 	 	 	 <div class="p-img">
+	 	 	 	 	 	 	 <a href="javascript:;"><img src="images/55376141Na63cbc04.jpg"></a>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 	 <div class="p-info">
+	 	 	 	 	 	 	 <a href="javascript:;" class="wd">勾勾手 重力方向盘无线遥控车 儿童玩具车汽车模型 漂移 </a>
+	 	 	 	 	 	 	 <i class="for-price">￥</i><span class="price">589.0</span>&nbsp;&nbsp;<i>￥</i><span class="old-price">629.0</span>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 </li>
+	 	 	 	 	 <li>
+	 	 	 	 	 	 <div class="p-img">
+	 	 	 	 	 	 	 <a href="javascript:;"><img src="images/56849f79N5041bd59.jpg"></a>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 	 <div class="p-info">
+	 	 	 	 	 	 	 <a href="javascript:;" class="wd">【明星同款 年终清仓】吉普盾NIAN JEEP男女情侣款两件套</a>
+	 	 	 	 	 	 	 <i class="for-price">￥</i><span class="price">399.0</span>&nbsp;&nbsp;<i>￥</i><span class="old-price">499.0</span>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 </li>
+	 	 	 	 	 <li>
+	 	 	 	 	 	 <div class="p-img">
+	 	 	 	 	 	 	 <a href="javascript:;"><img src="images/55d17800N1b88605f.jpg"></a>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 	 <div class="p-info">
+	 	 	 	 	 	 	 <a href="javascript:;" class="wd">小米（MI）小米蓝牙耳机-黑色(3G RAM+32G ROM)标配</a>
+	 	 	 	 	 	 	 <i class="for-price">￥</i><span class="price">79.0</span>&nbsp;&nbsp;<i>￥</i><span class="old-price">99.0</span>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 </li>
+	 	 	 	 	 <li>
+	 	 	 	 	 	 <div class="p-img">
+	 	 	 	 	 	 	 <a href="javascript:;"><img src="images/56543327N1ecaef4f.jpg"></a>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 	 <div class="p-info">
+	 	 	 	 	 	 	 <a href="javascript:;" class="wd">小米（MI）红米note3 双卡双待 智能 手机 金色</a>
+	 	 	 	 	 	 	 <i class="for-price">￥</i><span class="price">2199.0</span>&nbsp;&nbsp;<i>￥</i><span class="old-price">2399.0</span>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 </li>
+	 	 	 	 	 <li>
+	 	 	 	 	 	 <div class="p-img">
+	 	 	 	 	 	 	 <a href="javascript:;"><img src="images/555affefN75bf81ed.jpg"></a>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 	 <div class="p-info">
+	 	 	 	 	 	 	 <a href="javascript:;" class="wd">小米4 移动合约版 黑色 移动4G手机 不含合约计划</a>
+	 	 	 	 	 	 	 <i class="for-price">￥</i><span class="price">1499.0</span>&nbsp;&nbsp;<i>￥</i><span class="old-price">1599.0</span>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 </li>
+	 	 	 	 	 <li>
+	 	 	 	 	 	 <div class="p-img">
+	 	 	 	 	 	 	 <a href="javascript:;"><img src="images/55376141Na63cbc04.jpg"></a>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 	 <div class="p-info">
+	 	 	 	 	 	 	 <a href="javascript:;" class="wd">勾勾手 重力方向盘无线遥控车 儿童玩具车汽车模型 漂移 </a>
+	 	 	 	 	 	 	 <i class="for-price">￥</i><span class="price">589.0</span>&nbsp;&nbsp;<i>￥</i><span class="old-price">629.0</span>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 </li>
+	 	 	 	 	 <li>
+	 	 	 	 	 	 <div class="p-img">
+	 	 	 	 	 	 	 <a href="javascript:;"><img src="images/56849f79N5041bd59.jpg"></a>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 	 <div class="p-info">
+	 	 	 	 	 	 	 <a href="javascript:;" class="wd">【明星同款 年终清仓】吉普盾NIAN JEEP男女情侣款两件套</a>
+	 	 	 	 	 	 	 <i class="for-price">￥</i><span class="price">399.0</span>&nbsp;&nbsp;<i>￥</i><span class="old-price">499.0</span>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 </li>
+	 	 	 	 	 <li>
+	 	 	 	 	 	 <div class="p-img">
+	 	 	 	 	 	 	 <a href="javascript:;"><img src="images/55d17800N1b88605f.jpg"></a>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 	 <div class="p-info">
+	 	 	 	 	 	 	 <a href="javascript:;" class="wd">小米（MI）小米蓝牙耳机-黑色(3G RAM+32G ROM)标配</a>
+	 	 	 	 	 	 	 <i class="for-price">￥</i><span class="price">79.0</span>&nbsp;&nbsp;<i>￥</i><span class="old-price">99.0</span>
+	 	 	 	 	 	 </div>
+	 	 	 	 	 </li>
+	 	 	 	 </ul>
+             	</div>
+             	<img src="images/kill.jpg" class="fr"/>
+             </div>
+		 </div>
+		 <!--发现好货 优品专辑 排行榜-->
+		 <div class="three-box">
+		 	 <div class="find fl">
+		 	 	 <div class="find-top">
+		 	 	 	 <span>发现好货</span>
+		 	 	 	 <a href="javascript:;" class="fr">发现品质生活&nbsp;<i class="fa fa-chevron-circle-right"></i></a>
+		 	 	 </div>
+		 	 	 <div class="find-center">
+		 	 	 	 <ul>
+		 	 	 	 	 <li>
+		 	 	 	 	 	<div class="find-wd fl">
+		 	 	 	 	 		 <a href="javascript:;" class="find-wd">莱茵黑森德国干白</a>
+		 	 	 	 	 	</div>
+		 	 	 	 	 	<a href="javascript:;"><img src="image/find1.png" class="fr" width="80px;" height="80px;"></a>
+		 	 	 	 	 </li>
+		 	 	 	 	 <li>
+		 	 	 	 	 	<div class="find-wd fl">
+		 	 	 	 	 		 <a href="javascript:;" class="find-wd">茵曼文艺连衣裙两件套</a>
+		 	 	 	 	 	</div>
+		 	 	 	 	 	<a href="javascript:;"><img src="image/find2.png" class="fr" width="80px;" height="80px;"></a>
+		 	 	 	 	 </li>
+		 	 	 	 	 <li>
+		 	 	 	 	 	<div class="find-wd fl">
+		 	 	 	 	 		 <a href="javascript:;" class="find-wd">BQO PLAY音乐耳机</a>
+		 	 	 	 	 	</div>
+		 	 	 	 	 	<a href="javascript:;"><img src="image/find3.png" class="fr" width="80px;" height="80px;"></a>
+		 	 	 	 	 </li>
+		 	 	 	 	 <li>
+		 	 	 	 	 	<div class="find-wd fl">
+		 	 	 	 	 		 <a href="javascript:;" class="find-wd">真皮内增高休闲鞋</a>
+		 	 	 	 	 	</div>
+		 	 	 	 	 	<a href="javascript:;"><img src="image/find4.png" class="fr" width="80px;" height="80px;"></a>
+		 	 	 	 	 </li>
+		 	 	 	 	 <li>
+		 	 	 	 	 	<div class="find-wd fl">
+		 	 	 	 	 		 <a href="javascript:;" class="find-wd">创维平板液晶点击</a>
+		 	 	 	 	 	</div>
+		 	 	 	 	 	<a href="javascript:;"><img src="image/find5.png" class="fr" width="80px;" height="80px;"></a>
+		 	 	 	 	 </li>
+		 	 	 	 	 <li>
+		 	 	 	 	 	<div class="find-wd fl">
+		 	 	 	 	 		 <a href="javascript:;" class="find-wd">爱科技重低音蓝牙耳机</a>
+		 	 	 	 	 	</div>
+		 	 	 	 	 	<a href="javascript:;"><img src="image/find6.png" class="fr" width="80px;" height="80px;"></a>
+		 	 	 	 	 </li>
+		 	 	 	 </ul>
+		 	 	 </div>
+		 	 </div>
+		 	 <div class="youpin fl">
+		 	 	 <div class="youpin-top">
+		 	 	 	 <span>优品专辑</span>
+		 	 	 	 <a href="javascript:;" class="fr">甄选精致好货&nbsp;<i class="fa fa-chevron-circle-right"></i></a>
+		 	 	 </div>
+		 	 	 <div class="youpin-center">
+		 	 	 	<ul class="one-1">
+		 	 	 		<li>
+		 	 	 			<div class="youpin-center-top">
+		 	 	 				<a href="javascript:;">穿上俏皮印花短袖T学，让你清凉一夏</a></br>
+		 	 	 				&nbsp;<a href="javascript:;"><img src="image/333.png"></a>
+		 	 	 				<a href="javascript:;"><img src="image/333.png"></a>
+		 	 	 				<a href="javascript:;"><img src="image/333.png"></a>
+		 	 	 			</div>	
+		 	 	 			<div class="youpin-center-top">
+		 	 	 				<a href="javascript:;">穿上俏皮印花短袖T学，让你清凉一夏</a></br>
+		 	 	 				&nbsp;<a href="javascript:;"><img src="image/222.png"></a>
+		 	 	 				<a href="javascript:;"><img src="image/222.png"></a>
+		 	 	 				<a href="javascript:;"><img src="image/222.png"></a>
+		 	 	 			</div>
+		 	 	 		</li>
+		 	 	 		<li>
+		 	 	 			<div class="youpin-center-top">
+		 	 	 				<a href="javascript:;">穿上俏皮印花短袖T学，让你清凉一夏</a></br>
+		 	 	 				&nbsp;<a href="javascript:;"><img src="image/111.png"></a>
+		 	 	 				<a href="javascript:;"><img src="image/222.png"></a>
+		 	 	 				<a href="javascript:;"><img src="image/111.png"></a>
+		 	 	 			</div>	
+		 	 	 			<div class="youpin-center-top">
+		 	 	 				<a href="javascript:;">穿上俏皮印花短袖T学，让你清凉一夏</a></br>
+		 	 	 				&nbsp;<a href="javascript:;"><img src="image/222.png"></a>
+		 	 	 				<a href="javascript:;"><img src="image/000.png"></a>
+		 	 	 				<a href="javascript:;"><img src="image/222.png"></a>
+		 	 	 			</div>
+		 	 	 		</li>
+		 	 	 		<li>
+		 	 	 			<div class="youpin-center-top">
+		 	 	 				<a href="javascript:;">穿上俏皮印花短袖T学，让你清凉一夏</a></br>
+		 	 	 				&nbsp;<a href="javascript:;"><img src="image/555.png"></a>
+		 	 	 				<a href="javascript:;"><img src="image/333.png"></a>
+		 	 	 				<a href="javascript:;"><img src="image/111.png"></a>
+		 	 	 			</div>	
+		 	 	 			<div class="youpin-center-top">
+		 	 	 				<a href="javascript:;">穿上俏皮印花短袖T学，让你清凉一夏</a></br>
+		 	 	 				&nbsp;<a href="javascript:;"><img src="image/000.png"></a>
+		 	 	 				<a href="javascript:;"><img src="image/222.png"></a>
+		 	 	 				<a href="javascript:;"><img src="image/555.png"></a>
+		 	 	 			</div>
+		 	 	 		</li>
+		 	 	 	</ul>
+		 	 	 	<ul class="two-1">
+		 	 	 		<li class="on"></li>
+		 	 	 		<li></li>
+		 	 	 		<li></li>
+		 	 	 	</ul>
+		 	 	 	<div class="youpin-page">
+		 	 	 		<a href="javascript:void(0)" class="left1"><</a>
+		 	 	 		<a href="javascript:void(0)" class="right1">></a>
+		 	 	 	</div>
+		 	 	 </div>
+		 	 </div>
+		 	 <div class="paihang fl">
+		 	 	 <div class="paihang-top">
+		 	 	 	 <span>排行榜</span>
+		 	 	 	 <a href="javascript:;" class="fr">专属你的购物指南&nbsp;<i class="fa fa-chevron-circle-right"></i></a>
+		 	 	 </div>
+                 <div class="paihang-center">
+                 	<ul class="paihang-list">
+                 		<li><a href="javascript:;">手机通讯</a></li>
+						<li><a href="javascript:;">唇部</a></li>
+						<li><a href="javascript:;">男装</a></li>
+						<li><a href="javascript:;">料理机</a></li>
+						<li><a href="javascript:;">微波炉</a></li>
+						<li class="bar"></li>
+                 	</ul>
+                 	<div class="paihang-body">
+                 		<div class="paihang-cen paihang-on">
+                 			<ul>
+                 				<li>
+                 					<img src="images/56cd4890Ncb5e42dc.png">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/ranking4.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/56cd4890Ncb5e42dc.png">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/56cd4890Ncb5e42dc.png">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/ranking2.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/56cd4890Ncb5e42dc.png">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 			</ul>
+                 		</div>
+                 		<div class="paihang-cen">
+                 			<ul>
+                 				<li>
+                 					<img src="images/ranking4.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/56cd4890Ncb5e42dc.png">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/ranking4.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/56cd4890Ncb5e42dc.png">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/ranking2.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/ranking2.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 			</ul>
+                 		</div>
+                 		<div class="paihang-cen">
+                 			<ul>
+                 				<li>
+                 					<img src="images/ranking3.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/ranking3.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/ranking3.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/56cd4890Ncb5e42dc.png">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/ranking3.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/ranking2.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 			</ul>
+                 		</div>
+                 		<div class="paihang-cen">
+                 			<ul>
+                 				<li>
+                 					<img src="images/ranking2.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/ranking3.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/ranking2.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/56cd4890Ncb5e42dc.png">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/ranking2.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/ranking3.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 			</ul>
+                 		</div>
+                 		<div class="paihang-cen">
+                 			<ul>
+                 				<li>
+                 					<img src="images/phone1.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/ranking2.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/ranking4.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/phone1.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/ranking4.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 				<li>
+                 					<img src="images/ranking2.jpg">
+                 					<span>小米蓝牙耳机-黑色标配发现品质</span>
+                 				</li>
+                 			</ul>
+                 		</div>
+                 	</div>
+                 </div>
+		 	 </div>
+		 </div>
+		 <!--领券中心-->
+		 <div class="linquan">
+		 	 <div class="quan-left fl">
+		 	 	 <a href="javascript:;" class="bg-quan">领券中心</a><br/><br/><br/>
+		 	 	 <a href="javascript:;" class="no-quan">没抢到？</a><br/>
+		 	 	 <a href="javascript:;" class="no-quan">可以去看更多优惠券</a><br/><br/><br/>
+		 	 	 <a href="javascript:;" class="go-quan">前往领券中心&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-circle-right"></i></a>
+		 	 </div>
+		 	 <div class="quan-right fl">
+		 	 	 <ul>
+		 	 	 	<li>
+		 	 	 		<div class="quan-info fl">
+		 	 	 			<a href="javascript:;" style="color:red;">￥</a>
+		 	 	 			<a href="javascript:;" class="quan-price">100</a><br/>
+		 	 	 			<a href="javascript:;" class="miaoshu">仅可购买自营厨房电器部分产品</a><br/><br/><br/>
+		 	 	 			<a href="javascript:;" class="xiane">消费满500可用</a><br/><br/><br/>
+		 	 	 			<span>更多好券</span>
+		 	 	 		</div>
+		 	 	 		<a href="javascript:;" class="quan-img fl"><img src="image/quan1.png"></a>
+		 	 	 	</li>
+		 	 	 	<li>
+		 	 	 		<div class="quan-info fl">
+		 	 	 			<a href="javascript:;" style="color:red;">￥</a>
+		 	 	 			<a href="javascript:;" class="quan-price">100</a><br/>
+		 	 	 			<a href="javascript:;" class="miaoshu">仅可购买自营厨房电器部分产品</a><br/><br/><br/>
+		 	 	 			<a href="javascript:;" class="xiane">消费满500可用</a><br/><br/><br/>
+		 	 	 			<span>更多好券</span>
+		 	 	 		</div>
+		 	 	 		<a href="javascript:;" class="quan-img fl"><img src="image/quan2.png"></a>
+		 	 	 	</li>
+		 	 	 	<li>
+		 	 	 		<div class="quan-info fl">
+		 	 	 			<a href="javascript:;" style="color:red;">￥</a>
+		 	 	 			<a href="javascript:;" class="quan-price">100</a><br/>
+		 	 	 			<a href="javascript:;" class="miaoshu">仅可购买自营厨房电器部分产品</a><br/><br/><br/>
+		 	 	 			<a href="javascript:;" class="xiane">消费满500可用</a><br/><br/><br/>
+		 	 	 			<span>更多好券</span>
+		 	 	 		</div>
+		 	 	 		<a href="javascript:;" class="quan-img fl"><img src="image/quan5.png"></a>
+		 	 	 	</li>
+		 	 	 	<li>
+		 	 	 		<div class="quan-info fl">
+		 	 	 			<a href="javascript:;" style="color:red;">￥</a>
+		 	 	 			<a href="javascript:;" class="quan-price">100</a><br/>
+		 	 	 			<a href="javascript:;" class="miaoshu">仅可购买自营厨房电器部分产品</a><br/><br/><br/>
+		 	 	 			<a href="javascript:;" class="xiane">消费满500可用</a><br/><br/><br/>
+		 	 	 			<span>更多好券</span>
+		 	 	 		</div>
+		 	 	 		<a href="javascript:;" class="quan-img fl"><img src="image/quan4.png"></a>
+		 	 	 	</li>
+		 	 	 	<li>
+		 	 	 		<div class="quan-info fl">
+		 	 	 			<a href="javascript:;" style="color:red;">￥</a>
+		 	 	 			<a href="javascript:;" class="quan-price">100</a><br/>
+		 	 	 			<a href="javascript:;" class="miaoshu">仅可购买自营厨房电器部分产品</a><br/><br/><br/>
+		 	 	 			<a href="javascript:;" class="xiane">消费满500可用</a><br/><br/><br/>
+		 	 	 			<span>更多好券</span>
+		 	 	 		</div>
+		 	 	 		<a href="javascript:;" class="quan-img fl"><img src="image/quan3.png"></a>
+		 	 	 	</li>
+		 	 	 </ul>
+		 	 </div>
+		 </div>
+		 <!--图片导航-->
+		 <div class="img-daohang tu-1">
+		 	 <a href="javascript:;"><img src="image/img-daohang.png"></a>
+		 </div>
+		 <!--享品质-->
+		 <div class="quality" id="quality">
+		 	 <div class="quality-top">
+		 	 	 <span style="white-space: pre;"></span><span class="line"></span>
+		 	 	 <span style="white-space:pre"></span><span class="text">享品质</span>
+		 	 	 <span style="white-space:pre"></span><span class="line"></span>
+		 	 </div>
+		 	 <div class="quality-left fl">
+		 	 	 <ul>
+		 	 	 	 <li class="fl pos">
+		 	 	 	 	 <div class="xiang-left xiaomi fl">
+		 	 	 	 	 	 <a href="javascript:;" class="new">新品首发</a><br/><br/>
+		 	 	 	 	 	 <a href="javascript:;" class="info">小米手机6 10点开枪</a>
+		 	 	 	 	 </div>
+		 	 	 	 	 <div class="xiang-right mitu fl">
+		 	 	 	 	 	 <a href="javascript:;"><img src="image/xiang1.png"></a>
+		 	 	 	 	 </div>
+		 	 	 	 </li>
+		 	 	 	 <li class="fr pos">
+		 	 	 	 	 <div class="xiang-left xiaji fl">
+		 	 	 	 	 	 <a href="javascript:;" class="new">&nbsp;&nbsp;&nbsp;会逛&nbsp;&nbsp;&nbsp;</a><br/><br/>
+		 	 	 	 	 	 <a href="javascript:;" class="info">夏季潮流凉鞋1件9折  2件8折</a>
+		 	 	 	 	 </div>
+		 	 	 	 	 <div class="xiang-right liangxie fl">
+		 	 	 	 	 	 <a href="javascript:;"><img src="image/xiang2.png"></a>
+		 	 	 	 	 </div>
+		 	 	 	 </li>
+		 	 	 </ul>
+		 	 	 <ul>
+		 	 	 	 <li class="fl pos">
+		 	 	 	 	 <div class="xiang-left chaoshi fl">
+		 	 	 	 	 	 <a href="javascript:;" class="new">京东超市</a><br/><br/>
+		 	 	 	 	 	 <a href="javascript:;" class="info">零食坚果满99减50</a>
+		 	 	 	 	 </div>
+		 	 	 	 	 <div class="xiang-right lingshi fl">
+		 	 	 	 	 	 <a href="javascript:;"><img src="image/xiang3.png"></a>
+		 	 	 	 	 </div>
+		 	 	 	 </li>
+		 	 	 	 <li class="fr pos">
+		 	 	 	 	 <div class="xiang-left baitiao fl">
+		 	 	 	 	 	 <a href="javascript:;" class="new">白条商城</a><br/><br/>
+		 	 	 	 	 	 <a href="javascript:;" class="info">最高12期免息</a>
+		 	 	 	 	 </div>
+		 	 	 	 	 <div class="xiang-right shangcheng fl">
+		 	 	 	 	 	 <a href="javascript:;"><img src="image/xiang4.png"></a>
+		 	 	 	 	 </div>
+		 	 	 	 </li>
+		 	 	 </ul>
+		 	 	 <ul>
+		 	 	 	 <li class="fl">
+		 	 	 	 	 <div class="xiang-left shechi fl">
+		 	 	 	 	 	 <a href="javascript:;" class="new">奢侈大牌</a><br/><br/>
+		 	 	 	 	 	 <a href="javascript:;" class="info">尽享品质生活 满500减100</a>
+		 	 	 	 	 </div>
+		 	 	 	 	 <div class="xiang-right dapai fl">
+		 	 	 	 	 	 <a href="javascript:;"><img src="image/xiang5.png"></a>
+		 	 	 	 	 </div>
+		 	 	 	 </li>
+		 	 	 	 <li class="fr">
+		 	 	 	 	 <div class="xiang-left zhineng fl">
+		 	 	 	 	 	 <a href="javascript:;" class="new">智能生活</a><br/><br/>
+		 	 	 	 	 	 <a href="javascript:;" class="info">智能潮购 嗨购不停</a>
+		 	 	 	 	 </div>
+		 	 	 	 	 <div class="xiang-right haigou fl">
+		 	 	 	 	 	 <a href="javascript:;"><img src="image/xiang6.png"></a>
+		 	 	 	 	 </div>
+		 	 	 	 </li>
+		 	 	 </ul>
+		 	 </div>
+		 	 <div class="quality-right fl">
+		 	 	 <ul class="zhibo-one">
+		 	 	 	 <li><a href="javascript:;"><img src="images/56a0a3e1N6ef0d359.jpg"></a></li>
+		 	 	 	 <li><a href="javascript:;"><img src="images/56960e10N27e2d29f.jpg"></a></li>
+		 	 	 	 <li><a href="javascript:;"><img src="images/5690b6dcNd5aaa0f0.jpg"></a></li>
+		 	 	 	 <li><a href="javascript:;"><img src="image/lunbo5.jpg"></a></li>
+		 	 	 </ul>
+		 	 	 <ul class="zhibo-two">
+		 	 	 	<li class="on"></li>
+		 	 	 	<li></li>
+		 	 	 	<li></li>
+		 	 	 	<li></li>
+		 	 	 </ul>
+		 	 	 <div class="zhibo-page">
+		 	 	 	 <a href="javascript:void(0)" class="zhibo-left"><</a>
+		 	 	 	 <a href="javascript:void(0)" class="zhibo-right">></a>
+		 	 	 </div>
+		 	 	 <div class="jingdongzhibo">
+		 	 	 	<a href="javascript:;">京东直播</a>
+		 	 	 	<a href="javascript:;" class="fr">更多 <i class="fa fa-chevron-circle-right"></i></a>
+		 	 	 </div>
+		 	 </div>
+		 	 <div class="quality-bottom fl">
+		 	 	 <ul>
+		 	 	 	 <li class="fl">
+		 	 	 	 	 <a href="javascript:;"><img src="image/xiang7.png"></a>
+		 	 	 	 	 <div class="jianhuo">
+		 	 	 	 	 	 <a href="javascript:;" class="new">&nbsp;&nbsp;全球尖货&nbsp;&nbsp;</a><br/><br/>
+		 	 	 	 	 	 <a href="javascript:;" class="info">全球自营好货</a>
+		 	 	 	 	 </div>
+		 	 	 	 </li>
+		 	 	 	 <li class="fr">
+		 	 	 	 	 <a href="javascript:;"><img src="image/xiang8.png"></a>
+		 	 	 	 	 <div class="sheji">
+		 	 	 	 	 	 <a href="javascript:;" class="new">设计师推荐</a><br/><br/>
+		 	 	 	 	 	 <a href="javascript:;" class="info">全球精品设计</a>
+		 	 	 	 	 </div>
+		 	 	 	 </li>
+		 	 	 </ul>
+		 	 </div>
+		 </div>
+		 <!--图片导航-->
+		 <div class="img-daohang">
+		 	 <a href="javascript:;"><img src="image/11.png"></a>
+		 </div>
+		 <!--爱生活-->
+		 <div class="love-life">
+		 	 <div class="love-top">
+		 	 	 <span style="white-space:pre"></span><span class="line"></span>
+		 	 	 <span style="white-space:pre"></span><span class="text">爱生活</span>
+		 	 	 <span style="white-space:pre"></span><span class="line"></span>
+		 	 </div>
+		 	 <!--服饰美妆-->
+		 	 <div class="love-left" id="clothes">
+		 	 	<div class="bodyHeader">
+		 	 		<span>爱逛</span>
+		 	 		<img src="image/guang1.png">
+		 	 		<ul class="fr">
+						<li><a href="javascript:;">海澜之家</a></li>
+						<li><a href="javascript:;">箱包</a></li>
+						<li><a href="javascript:;">大牌钟表</a></li>
+						<li><a href="javascript:;">珠宝</a></li>
+						<li><a href="javascript:;">奢侈品</a></li>
+					</ul>
+		 	 	</div>
+		 	 	<div class="box">
+		 	 		<div class="topbox">
+		 	 			<div class="topLeft">
+		 	 				<a href="javascript:;"><img src="images/life1.jpg" alt="" /></a>
+		 	 			</div>
+		 	 			<ul class="topRight">
+		 	 				<li>
+		 	 					<img src="images/top_right1.jpg" alt="" />
+								<div class="topInfo">
+									<span>格调男装</span>
+									<p>3件7折</p>
+								</div>
+		 	 				</li>
+		 	 				<li>
+								<img src="images/top_right2.jpg" alt="" />
+								<div class="topInfo">
+									<span>大牌折扣日</span>
+									<p>2件9折</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/top_right3.jpg" alt="" />
+								<div class="topInfo">
+									<span>418耍大牌</span>
+									<p>春夏新品 满199减100</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/top_right4.jpg" alt="" />
+								<div class="topInfo">
+									<span>自营箱包</span>
+									<p>跨店满199减100</p>
+								</div>
+							</li>
+		 	 			</ul>
+		 	 		</div>
+		 	 		<div class="midBox">
+						<ul>
+							<li><a href="javascript:;"><img src="images/top_mid1.png" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/top_mid2.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/top_mid3.jpg" alt="" /></a></li>
+						</ul>
+					</div>
+		 	 		<div class="botbox"><img src="images/life_bot.jpg" alt="" /></div>
+		 	 	</div>
+		 	 </div>
+		 	 <div class="love-right">
+		 	 	<div class="bodyHeader">
+		 	 		<span>爱美丽</span>
+		 	 		<img src="image/meili1.png">
+		 	 		<ul class="fr">
+						<li><a href="javascript:;">洁面</a></li>
+						<li><a href="javascript:;">套装</a></li>
+						<li><a href="javascript:;">乳液</a></li>
+						<li><a href="javascript:;">面膜</a></li>
+						<li><a href="javascript:;">洗护发</a></li>
+						<li><a href="javascript:;">沐浴</a></li>
+					</ul>
+		 	 	</div>
+		 	 	<div class="box">
+		 	 		<div class="topbox">
+		 	 			<div class="topLeft">
+		 	 				<a href="javascript:;"><img src="images/life2.jpg" alt="" /></a>
+		 	 			</div>
+		 	 			<ul class="topRight">
+		 	 				<li>
+		 	 					<img src="images/mei2.jpg" alt="" />
+								<div class="topInfo">
+									<span>美妆馆</span>
+									<p>面膜1元</p><p>开抢</p>
+								</div>
+		 	 				</li>
+		 	 				<li>
+								<img src="images/mei3.jpg" alt="" />
+								<div class="topInfo">
+									<span>香水彩妆</span>
+									<p>爆款低至</p><p>5折</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/mei4.jpg" alt="" />
+								<div class="topInfo">
+									<span>面部护肤</span>
+									<p>每满199</p><p>减100</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/mei5.jpg" alt="" />
+								<div class="topInfo">
+									<span>个护馆</span>
+									<p>2件7折 3件</p><p>6折</p>
+								</div>
+							</li>
+		 	 			</ul>
+		 	 		</div>
+		 	 		<div class="midBox">
+						<ul>
+							<li><a href="javascript:;"><img src="images/right1.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right2.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right3.jpg" alt="" /></a></li>
+						</ul>
+					</div>
+		 	 		<div class="botbox"><img src="images/life_bot.jpg" alt="" /></div>
+		 	 	</div>
+		 	 </div>
+		 	 <!--家电手机-->
+		 	 <div class="jiadian" id="phones">
+		 	 	<div class="bodyHeader">
+		 	 		<span>家电馆</span>
+		 	 		<img src="image/jiadian1.png">
+		 	 		<ul class="fr">
+						<li><a href="javascript:;">格力大促</a></li>
+						<li><a href="javascript:;">电视家影</a></li>
+						<li><a href="javascript:;">满减</a></li>
+						<li><a href="javascript:;">300元券</a></li>
+					</ul>
+		 	 	</div>
+		 	 	<div class="box">
+		 	 		<div class="topbox">
+		 	 			<div class="topLeft">
+		 	 				<a href="javascript:;"><img src="images/home1.jpg" alt="" /></a>
+		 	 			</div>
+		 	 			<ul class="topRight">
+		 	 				<li>
+		 	 					<img src="images/home3.jpg" alt="" />
+								<div class="topInfo">
+									<span>815周年庆</span>
+									<p>领券最高</p><p>减800元</p>
+								</div>
+		 	 				</li>
+		 	 				<li>
+								<img src="images/home4.jpg" alt="" />
+								<div class="topInfo">
+									<span>冰箱洗衣机</span>
+									<p>每满2000</p><p>立减300</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/home5.jpg" alt="" />
+								<div class="topInfo">
+									<span>每满300减30</span>
+									<p>上不封</p><p>顶</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/home6.jpg" alt="" />
+								<div class="topInfo">
+									<span>暴打秋老虎</span>
+									<p>用券满6000</p><p>减300</p>
+								</div>
+							</li>
+		 	 			</ul>
+		 	 		</div>
+		 	 		<div class="midBox">
+						<ul>
+							<li><a href="javascript:;"><img src="images/right1.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right2.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right3.jpg" alt="" /></a></li>
+						</ul>
+					</div>
+		 	 		<div class="botbox"><img src="images/life_bot.jpg" alt="" /></div>
+		 	 	</div>
+		 	 </div>
+		 	 <div class="gaoji-pai">
+		 	 	<div class="bodyHeader">
+		 	 		<span>搞机派</span>
+		 	 		<img src="image/gaoji.png">
+		 	 		<ul class="fr">
+						<li><a href="javascript:;">金属机身</a></li>
+						<li><a href="javascript:;">快速充电</a></li>
+						<li><a href="javascript:;">拍照神器</a></li>
+						<li><a href="javascript:;">后置双摄像</a></li>
+					</ul>
+		 	 	</div>
+		 	 	<div class="box">
+		 	 		<div class="topbox">
+		 	 			<div class="topLeft">
+		 	 				<a href="javascript:;"><img src="images/gaoji.jpg" alt="" /></a>
+		 	 			</div>
+		 	 			<ul class="topRight">
+		 	 				<li>
+		 	 					<img src="images/top_right1.jpg" alt="" />
+								<div class="topInfo">
+									<span>新Phone尚</span>
+									<p>魅族</p><p>PR07</p><p>月抢购</p>
+								</div>
+		 	 				</li>
+		 	 				<li>
+								<img src="images/home4.jpg" alt="" />
+								<div class="topInfo">
+									<span>24小时榜</span>
+									<p>人气店铺</p><p>榜单揭秘</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/home5.jpg" alt="" />
+								<div class="topInfo">
+									<span>京东网厅</span>
+									<p>每天一元</p><p>享800M</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/home6.jpg" alt="" />
+								<div class="topInfo">
+									<span>京东选家</span>
+									<p>用券满6000</p><p>减300</p>
+								</div>
+							</li>
+		 	 			</ul>
+		 	 		</div>
+		 	 		<div class="midBox">
+						<ul>
+							<li><a href="javascript:;"><img src="images/right1.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right2.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right3.jpg" alt="" /></a></li>
+						</ul>
+					</div>
+		 	 		<div class="botbox"><img src="images/life_bot.jpg" alt="" /></div>
+		 	 	</div>
+		 	 </div>
+		 	 <!--电脑数码-->
+		 	 <div class="shuma" id="computers">
+		 	 	<div class="bodyHeader">
+		 	 		<span>电脑数码</span>
+		 	 		<img src="images/computer0.jpg">
+		 	 		<ul class="fr">
+						<li><a href="javascript:;">电脑馆</a></li>
+						<li><a href="javascript:;">游戏极品</a></li>
+						<li><a href="javascript:;">装机大师</a></li>
+						<li><a href="javascript:;">职场焕新</a></li>
+						<li><a href="javascript:;">女神频道</a></li>
+						<li><a href="javascript:;">虚拟现实</a></li>
+						<li><a href="javascript:;">二合一平板</a></li>
+						<li><a href="javascript:;">电子教育</a></li>
+						<li><a href="javascript:;">摄影社区</a></li>
+						<li><a href="javascript:;">全球智选</a></li>
+						<li><a href="javascript:;">照片冲印</a></li>
+					</ul>
+		 	 	</div>
+		 	 	<div class="box fl" style="margin-left: 10px;">
+		 	 		<div class="topbox">
+		 	 			<div class="topLeft">
+		 	 				<a href="javascript:;"><img src="images/computer1.jpg" alt="" /></a>
+		 	 			</div>
+		 	 			<ul class="topRight">
+		 	 				<li>
+		 	 					<img src="images/top_right1.jpg" alt="" />
+								<div class="topInfo">
+									<span>新Phone尚</span>
+									<p>魅族</p><p>PR07</p><p>月抢购</p>
+								</div>
+		 	 				</li>
+		 	 				<li>
+								<img src="images/home4.jpg" alt="" />
+								<div class="topInfo">
+									<span>24小时榜</span>
+									<p>人气店铺</p><p>榜单揭秘</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/home5.jpg" alt="" />
+								<div class="topInfo">
+									<span>京东网厅</span>
+									<p>每天一元</p><p>享800M</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/home6.jpg" alt="" />
+								<div class="topInfo">
+									<span>京东选家</span>
+									<p>用券满6000</p><p>减300</p>
+								</div>
+							</li>
+		 	 			</ul>
+		 	 		</div>
+		 	 		<div class="midBox">
+						<ul>
+							<li><a href="javascript:;"><img src="images/right1.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right2.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right3.jpg" alt="" /></a></li>
+						</ul>
+					</div>
+		 	 		<div class="botbox"><img src="images/life_bot.jpg" alt="" /></div>
+		 	 	</div>
+		 	 	<div class="box fr" style="margin-right: 10px;">
+		 	 		<div class="topbox">
+		 	 			<div class="topLeft">
+		 	 				<a href="javascript:;"><img src="images/computer2.png" alt="" /></a>
+		 	 			</div>
+		 	 			<ul class="topRight">
+		 	 				<li>
+		 	 					<img src="images/top_right1.jpg" alt="" />
+								<div class="topInfo">
+									<span>新Phone尚</span>
+									<p>魅族</p><p>PR07</p><p>月抢购</p>
+								</div>
+		 	 				</li>
+		 	 				<li>
+								<img src="images/home4.jpg" alt="" />
+								<div class="topInfo">
+									<span>24小时榜</span>
+									<p>人气店铺</p><p>榜单揭秘</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/home5.jpg" alt="" />
+								<div class="topInfo">
+									<span>京东网厅</span>
+									<p>每天一元</p><p>享800M</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/home6.jpg" alt="" />
+								<div class="topInfo">
+									<span>京东选家</span>
+									<p>用券满6000</p><p>减300</p>
+								</div>
+							</li>
+		 	 			</ul>
+		 	 		</div>
+		 	 		<div class="midBox">
+						<ul>
+							<li><a href="javascript:;"><img src="images/right1.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right2.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right3.jpg" alt="" /></a></li>
+						</ul>
+					</div>
+		 	 		<div class="botbox"><img src="images/life_bot.jpg" alt="" /></div>
+		 	 	</div>
+		 	 </div>
+		 	 <!--3C运动-->
+		 	 <div class="play3" id="sport3">
+		 	 	<div class="bodyHeader">
+		 	 		<span>玩3C</span>
+		 	 		<img src="images/play.jpg">
+		 	 		<ul class="fr">
+						<li><a href="javascript:;">手机</a></li>
+						<li><a href="javascript:;">电脑</a></li>
+						<li><a href="javascript:;">数码</a></li>
+						<li><a href="javascript:;">二手优品</a></li>
+						<li><a href="javascript:;">京东租赁</a></li>
+					</ul>
+		 	 	</div>
+		 	 	<div class="box">
+		 	 		<div class="topbox">
+		 	 			<div class="topLeft">
+		 	 				<a href="javascript:;"><img src="images/sport1.jpg" alt="" /></a>
+		 	 			</div>
+		 	 			<ul class="topRight">
+		 	 				<li>
+		 	 					<img src="images/home3.jpg" alt="" />
+								<div class="topInfo">
+									<span>815周年庆</span>
+									<p>领券最高</p><p>减800元</p>
+								</div>
+		 	 				</li>
+		 	 				<li>
+								<img src="images/home4.jpg" alt="" />
+								<div class="topInfo">
+									<span>冰箱洗衣机</span>
+									<p>每满2000</p><p>立减300</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/home5.jpg" alt="" />
+								<div class="topInfo">
+									<span>每满300减30</span>
+									<p>上不封</p><p>顶</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/home6.jpg" alt="" />
+								<div class="topInfo">
+									<span>暴打秋老虎</span>
+									<p>用券满6000</p><p>减300</p>
+								</div>
+							</li>
+		 	 			</ul>
+		 	 		</div>
+		 	 		<div class="midBox">
+						<ul>
+							<li><a href="javascript:;"><img src="images/right1.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right2.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right3.jpg" alt="" /></a></li>
+						</ul>
+					</div>
+		 	 		<div class="botbox"><img src="images/life_bot.jpg" alt="" /></div>
+		 	 	</div>
+		 	 </div>
+		 	 <div class="sport">
+		 	 	<div class="bodyHeader">
+		 	 		<span>爱运动</span>
+		 	 		<img src="images/sport.jpg">
+		 	 		<ul class="fr">
+						<li><a href="javascript:;">跑步鞋</a></li>
+						<li><a href="javascript:;">冲锋衣</a></li>
+						<li><a href="javascript:;">动感单车</a></li>
+						<li><a href="javascript:;">电动车</a></li>
+						<li><a href="javascript:;">户外风衣</a></li>
+					</ul>
+		 	 	</div>
+		 	 	<div class="box">
+		 	 		<div class="topbox">
+		 	 			<div class="topLeft">
+		 	 				<a href="javascript:;"><img src="images/sport2.jpg" alt="" /></a>
+		 	 			</div>
+		 	 			<ul class="topRight">
+		 	 				<li>
+		 	 					<img src="images/top_right1.jpg" alt="" />
+								<div class="topInfo">
+									<span>新Phone尚</span>
+									<p>魅族</p><p>PR07</p><p>月抢购</p>
+								</div>
+		 	 				</li>
+		 	 				<li>
+								<img src="images/home4.jpg" alt="" />
+								<div class="topInfo">
+									<span>24小时榜</span>
+									<p>人气店铺</p><p>榜单揭秘</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/home5.jpg" alt="" />
+								<div class="topInfo">
+									<span>京东网厅</span>
+									<p>每天一元</p><p>享800M</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/home6.jpg" alt="" />
+								<div class="topInfo">
+									<span>京东选家</span>
+									<p>用券满6000</p><p>减300</p>
+								</div>
+							</li>
+		 	 			</ul>
+		 	 		</div>
+		 	 		<div class="midBox">
+						<ul>
+							<li><a href="javascript:;"><img src="images/right1.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right2.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right3.jpg" alt="" /></a></li>
+						</ul>
+					</div>
+		 	 		<div class="botbox"><img src="images/life_bot.jpg" alt="" /></div>
+		 	 	</div>
+		 	 </div>
+		 	 <!--爱吃-->
+		 	 <div class="loveat" id="eat">
+		 	 	<div class="bodyHeader">
+		 	 		<span>爱吃</span>
+		 	 		<img src="images/eat0.jpg">
+		 	 		<ul class="fr">
+						<li><a href="javascript:;">坚果蜜饯</a></li>
+						<li><a href="javascript:;">冲饮牛奶</a></li>
+						<li><a href="javascript:;">休闲零食</a></li>
+						<li><a href="javascript:;">粮油调味</a></li>
+						<li><a href="javascript:;">糖果巧克力</a></li>
+						<li><a href="javascript:;">饼干蛋糕</a></li>
+						<li><a href="javascript:;">白酒</a></li>
+						<li><a href="javascript:;">红酒</a></li>
+						<li><a href="javascript:;">橙子</a></li>
+						<li><a href="javascript:;">奇异果</a></li>
+						<li><a href="javascript:;">北极虾</a></li>
+						<li><a href="javascript:;">鸡蛋</a></li>
+					</ul>
+		 	 	</div>
+		 	 	<div class="box fl" style="margin-left: 10px;">
+		 	 		<div class="topbox">
+		 	 			<div class="topLeft">
+		 	 				<a href="javascript:;"><img src="images/eat1.jpg" alt="" /></a>
+		 	 			</div>
+		 	 			<ul class="topRight">
+		 	 				<li>
+		 	 					<img src="images/top_right1.jpg" alt="" />
+								<div class="topInfo">
+									<span>新Phone尚</span>
+									<p>魅族</p><p>PR07</p><p>月抢购</p>
+								</div>
+		 	 				</li>
+		 	 				<li>
+								<img src="images/home4.jpg" alt="" />
+								<div class="topInfo">
+									<span>24小时榜</span>
+									<p>人气店铺</p><p>榜单揭秘</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/home5.jpg" alt="" />
+								<div class="topInfo">
+									<span>京东网厅</span>
+									<p>每天一元</p><p>享800M</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/home6.jpg" alt="" />
+								<div class="topInfo">
+									<span>京东选家</span>
+									<p>用券满6000</p><p>减300</p>
+								</div>
+							</li>
+		 	 			</ul>
+		 	 		</div>
+		 	 		<div class="midBox">
+						<ul>
+							<li><a href="javascript:;"><img src="images/right1.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right2.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right3.jpg" alt="" /></a></li>
+						</ul>
+					</div>
+		 	 		<div class="botbox"><img src="images/life_bot.jpg" alt="" /></div>
+		 	 	</div>
+		 	 	<div class="box fr" style="margin-right: 10px;">
+		 	 		<div class="topbox">
+		 	 			<div class="topLeft">
+		 	 				<a href="javascript:;"><img src="images/eat2.png" alt="" /></a>
+		 	 			</div>
+		 	 			<ul class="topRight">
+		 	 				<li>
+		 	 					<img src="images/top_right1.jpg" alt="" />
+								<div class="topInfo">
+									<span>新Phone尚</span>
+									<p>魅族</p><p>PR07</p><p>月抢购</p>
+								</div>
+		 	 				</li>
+		 	 				<li>
+								<img src="images/home4.jpg" alt="" />
+								<div class="topInfo">
+									<span>24小时榜</span>
+									<p>人气店铺</p><p>榜单揭秘</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/home5.jpg" alt="" />
+								<div class="topInfo">
+									<span>京东网厅</span>
+									<p>每天一元</p><p>享800M</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/home6.jpg" alt="" />
+								<div class="topInfo">
+									<span>京东选家</span>
+									<p>用券满6000</p><p>减300</p>
+								</div>
+							</li>
+		 	 			</ul>
+		 	 		</div>
+		 	 		<div class="midBox">
+						<ul>
+							<li><a href="javascript:;"><img src="images/right1.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right2.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right3.jpg" alt="" /></a></li>
+						</ul>
+					</div>
+		 	 		<div class="botbox"><img src="images/life_bot.jpg" alt="" /></div>
+		 	 	</div>
+		 	 </div>
+		 	 <!--母婴家具-->
+		 	 <div class="baby" id="mom">
+		 	 	<div class="bodyHeader">
+		 	 		<span>爱宝宝</span>
+		 	 		<img src="images/baby.jpg">
+		 	 		<ul class="fr">
+						<li><a href="javascript:;">洗护喂养</a></li>
+						<li><a href="javascript:;">妈妈专区</a></li>
+						<li><a href="javascript:;">寝居服饰</a></li>
+						<li><a href="javascript:;">婴儿推车</a></li>
+						<li><a href="javascript:;">安全座椅</a></li>
+					</ul>
+		 	 	</div>
+		 	 	<div class="box">
+		 	 		<div class="topbox">
+		 	 			<div class="topLeft">
+		 	 				<a href="javascript:;"><img src="images/mom1.jpg" alt="" /></a>
+		 	 			</div>
+		 	 			<ul class="topRight">
+		 	 				<li>
+		 	 					<img src="images/top_right1.jpg" alt="" />
+								<div class="topInfo">
+									<span>格调男装</span>
+									<p>3件7折</p>
+								</div>
+		 	 				</li>
+		 	 				<li>
+								<img src="images/top_right2.jpg" alt="" />
+								<div class="topInfo">
+									<span>大牌折扣日</span>
+									<p>2件9折</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/top_right3.jpg" alt="" />
+								<div class="topInfo">
+									<span>418耍大牌</span>
+									<p>春夏新品 满199减100</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/top_right4.jpg" alt="" />
+								<div class="topInfo">
+									<span>自营箱包</span>
+									<p>跨店满199减100</p>
+								</div>
+							</li>
+		 	 			</ul>
+		 	 		</div>
+		 	 		<div class="midBox">
+						<ul>
+							<li><a href="javascript:;"><img src="images/top_mid1.png" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/top_mid2.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/top_mid3.jpg" alt="" /></a></li>
+						</ul>
+					</div>
+		 	 		<div class="botbox"><img src="images/life_bot.jpg" alt="" /></div>
+		 	 	</div>
+		 	 </div>
+		 	 <div class="home">
+		 	 	<div class="bodyHeader">
+		 	 		<span>爱家</span>
+		 	 		<img src="images/jia.jpg">
+		 	 		<ul class="fr">
+						<li><a href="javascript:;">装修</a></li>
+						<li><a href="javascript:;">设计帮</a></li>
+						<li><a href="javascript:;">收纳家具</a></li>
+						<li><a href="javascript:;">工具</a></li>
+						<li><a href="javascript:;">礼品</a></li>
+					</ul>
+		 	 	</div>
+		 	 	<div class="box">
+		 	 		<div class="topbox">
+		 	 			<div class="topLeft">
+		 	 				<a href="javascript:;"><img src="images/mom2.jpg" alt="" /></a>
+		 	 			</div>
+		 	 			<ul class="topRight">
+		 	 				<li>
+		 	 					<img src="images/mei2.jpg" alt="" />
+								<div class="topInfo">
+									<span>美妆馆</span>
+									<p>面膜1元</p><p>开抢</p>
+								</div>
+		 	 				</li>
+		 	 				<li>
+								<img src="images/mei3.jpg" alt="" />
+								<div class="topInfo">
+									<span>香水彩妆</span>
+									<p>爆款低至</p><p>5折</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/mei4.jpg" alt="" />
+								<div class="topInfo">
+									<span>面部护肤</span>
+									<p>每满199</p><p>减100</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/mei5.jpg" alt="" />
+								<div class="topInfo">
+									<span>个护馆</span>
+									<p>2件7折 3件</p><p>6折</p>
+								</div>
+							</li>
+		 	 			</ul>
+		 	 		</div>
+		 	 		<div class="midBox">
+						<ul>
+							<li><a href="javascript:;"><img src="images/right1.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right2.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right3.jpg" alt="" /></a></li>
+						</ul>
+					</div>
+		 	 		<div class="botbox"><img src="images/life_bot.jpg" alt="" /></div>
+		 	 	</div>
+		 	 </div>
+		 	 <!--图书汽车-->
+		 	 <div class="love-read" id="book">
+		 	 	<div class="bodyHeader">
+		 	 		<span>爱阅读</span>
+		 	 		<img src="images/read.jpg">
+		 	 		<ul class="fr">
+						<li><a href="javascript:;">外语</a></li>
+						<li><a href="javascript:;">历史</a></li>
+						<li><a href="javascript:;">经管</a></li>
+						<li><a href="javascript:;">摄影</a></li>
+						<li><a href="javascript:;">编程</a></li>
+					</ul>
+		 	 	</div>
+		 	 	<div class="box">
+		 	 		<div class="topbox">
+		 	 			<div class="topLeft">
+		 	 				<a href="javascript:;"><img src="images/book1.jpg" alt="" /></a>
+		 	 			</div>
+		 	 			<ul class="topRight">
+		 	 				<li>
+		 	 					<img src="images/top_right1.jpg" alt="" />
+								<div class="topInfo">
+									<span>格调男装</span>
+									<p>3件7折</p>
+								</div>
+		 	 				</li>
+		 	 				<li>
+								<img src="images/top_right2.jpg" alt="" />
+								<div class="topInfo">
+									<span>大牌折扣日</span>
+									<p>2件9折</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/top_right3.jpg" alt="" />
+								<div class="topInfo">
+									<span>418耍大牌</span>
+									<p>春夏新品 满199减100</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/top_right4.jpg" alt="" />
+								<div class="topInfo">
+									<span>自营箱包</span>
+									<p>跨店满199减100</p>
+								</div>
+							</li>
+		 	 			</ul>
+		 	 		</div>
+		 	 		<div class="midBox">
+						<ul>
+							<li><a href="javascript:;"><img src="images/top_mid1.png" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/top_mid2.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/top_mid3.jpg" alt="" /></a></li>
+						</ul>
+					</div>
+		 	 		<div class="botbox"><img src="images/life_bot.jpg" alt="" /></div>
+		 	 	</div>
+		 	 </div>
+		 	 <div class="love-car">
+		 	 	<div class="bodyHeader">
+		 	 		<span>爱车</span>
+		 	 		<img src="images/car.jpg">
+		 	 		<ul class="fr">
+						<li><a href="javascript:;">雨刮器</a></li>
+						<li><a href="javascript:;">高清记录仪</a></li>
+						<li><a href="javascript:;">换季保养</a></li>
+						<li><a href="javascript:;">洗车</a></li>
+					</ul>
+		 	 	</div>
+		 	 	<div class="box">
+		 	 		<div class="topbox">
+		 	 			<div class="topLeft">
+		 	 				<a href="javascript:;"><img src="images/book2.jpg" alt="" /></a>
+		 	 			</div>
+		 	 			<ul class="topRight">
+		 	 				<li>
+		 	 					<img src="images/mei2.jpg" alt="" />
+								<div class="topInfo">
+									<span>美妆馆</span>
+									<p>面膜1元</p><p>开抢</p>
+								</div>
+		 	 				</li>
+		 	 				<li>
+								<img src="images/mei3.jpg" alt="" />
+								<div class="topInfo">
+									<span>香水彩妆</span>
+									<p>爆款低至</p><p>5折</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/mei4.jpg" alt="" />
+								<div class="topInfo">
+									<span>面部护肤</span>
+									<p>每满199</p><p>减100</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/mei5.jpg" alt="" />
+								<div class="topInfo">
+									<span>个护馆</span>
+									<p>2件7折 3件</p><p>6折</p>
+								</div>
+							</li>
+		 	 			</ul>
+		 	 		</div>
+		 	 		<div class="midBox">
+						<ul>
+							<li><a href="javascript:;"><img src="images/right1.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right2.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right3.jpg" alt="" /></a></li>
+						</ul>
+					</div>
+		 	 		<div class="botbox"><img src="images/life_bot.jpg" alt="" /></div>
+		 	 	</div>
+		 	 </div>
+		 	 <!--游戏金融-->
+		 	 <div class="love-game" id="game">
+		 	 	<div class="bodyHeader">
+		 	 		<span>爱游戏</span>
+		 	 		<img src="images/game.jpg">
+		 	 		<ul class="fr">
+						<li><a href="javascript:;">女神专区</a></li>
+						<li><a href="javascript:;">装机大师</a></li>
+						<li><a href="javascript:;">私人订制</a></li>
+						<li><a href="javascript:;">游戏周边</a></li>
+					</ul>
+		 	 	</div>
+		 	 	<div class="box">
+		 	 		<div class="topbox">
+		 	 			<div class="topLeft">
+		 	 				<a href="javascript:;"><img src="images/virture1.jpg" alt="" /></a>
+		 	 			</div>
+		 	 			<ul class="topRight">
+		 	 				<li>
+		 	 					<img src="images/mei2.jpg" alt="" />
+								<div class="topInfo">
+									<span>美妆馆</span>
+									<p>面膜1元</p><p>开抢</p>
+								</div>
+		 	 				</li>
+		 	 				<li>
+								<img src="images/mei3.jpg" alt="" />
+								<div class="topInfo">
+									<span>香水彩妆</span>
+									<p>爆款低至</p><p>5折</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/mei4.jpg" alt="" />
+								<div class="topInfo">
+									<span>面部护肤</span>
+									<p>每满199</p><p>减100</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/mei5.jpg" alt="" />
+								<div class="topInfo">
+									<span>个护馆</span>
+									<p>2件7折 3件</p><p>6折</p>
+								</div>
+							</li>
+		 	 			</ul>
+		 	 		</div>
+		 	 		<div class="midBox">
+						<ul>
+							<li><a href="javascript:;"><img src="images/right1.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right2.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right3.jpg" alt="" /></a></li>
+						</ul>
+					</div>
+		 	 		<div class="botbox"><img src="images/life_bot.jpg" alt="" /></div>
+		 	 	</div>
+		 	 </div>
+		 	 <div class="jinrong">
+		 	 	<div class="bodyHeader">
+		 	 		<span>京东金融</span>
+		 	 		<img src="images/game2.jpg">
+		 	 		<ul class="fr">
+						<li><a href="javascript:;">小金库</a></li>
+						<li><a href="javascript:;">打白条</a></li>
+						<li><a href="javascript:;">筹好物</a></li>
+						<li><a href="javascript:;">保险保障</a></li>
+						<li><a href="javascript:;">京东支付</a></li>
+					</ul>
+		 	 	</div>
+		 	 	<div class="box">
+		 	 		<div class="topbox">
+		 	 			<div class="topLeft">
+		 	 				<a href="javascript:;"><img src="images/virture3.jpg" alt="" /></a>
+		 	 			</div>
+		 	 			<ul class="topRight">
+		 	 				<li>
+		 	 					<img src="images/top_right1.jpg" alt="" />
+								<div class="topInfo">
+									<span>格调男装</span>
+									<p>3件7折</p>
+								</div>
+		 	 				</li>
+		 	 				<li>
+								<img src="images/top_right2.jpg" alt="" />
+								<div class="topInfo">
+									<span>大牌折扣日</span>
+									<p>2件9折</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/top_right3.jpg" alt="" />
+								<div class="topInfo">
+									<span>418耍大牌</span>
+									<p>春夏新品 满199减100</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/top_right4.jpg" alt="" />
+								<div class="topInfo">
+									<span>自营箱包</span>
+									<p>跨店满199减100</p>
+								</div>
+							</li>
+		 	 			</ul>
+		 	 		</div>
+		 	 		<div class="midBox">
+						<ul>
+							<li><a href="javascript:;"><img src="images/top_mid1.png" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/top_mid2.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/top_mid3.jpg" alt="" /></a></li>
+						</ul>
+					</div>
+		 	 		<div class="botbox"><img src="images/life_bot.jpg" alt="" /></div>
+		 	 	</div>
+		 	 </div>
+		 	 <!--旅行健康-->
+		 	 <div class="love-trvael" id="travel">
+		 	 	<div class="bodyHeader">
+		 	 		<span>生活旅行</span>
+		 	 		<img src="images/trvael.jpg">
+		 	 		<ul class="fr">
+						<li><a href="javascript:;">机票</a></li>
+						<li><a href="javascript:;">火车票</a></li>
+						<li><a href="javascript:;">电影票</a></li>
+					</ul>
+		 	 	</div>
+		 	 	<div class="box">
+		 	 		<div class="topbox">
+		 	 			<div class="topLeft">
+		 	 				<a href="javascript:;"><img src="images/virture2.jpg" alt="" /></a>
+		 	 			</div>
+		 	 			<ul class="topRight">
+		 	 				<li>
+		 	 					<img src="images/mei2.jpg" alt="" />
+								<div class="topInfo">
+									<span>美妆馆</span>
+									<p>面膜1元</p><p>开抢</p>
+								</div>
+		 	 				</li>
+		 	 				<li>
+								<img src="images/mei3.jpg" alt="" />
+								<div class="topInfo">
+									<span>香水彩妆</span>
+									<p>爆款低至</p><p>5折</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/mei4.jpg" alt="" />
+								<div class="topInfo">
+									<span>面部护肤</span>
+									<p>每满199</p><p>减100</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/mei5.jpg" alt="" />
+								<div class="topInfo">
+									<span>个护馆</span>
+									<p>2件7折 3件</p><p>6折</p>
+								</div>
+							</li>
+		 	 			</ul>
+		 	 		</div>
+		 	 		<div class="midBox">
+						<ul>
+							<li><a href="javascript:;"><img src="images/right1.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right2.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/right3.jpg" alt="" /></a></li>
+						</ul>
+					</div>
+		 	 		<div class="botbox"><img src="images/life_bot.jpg" alt="" /></div>
+		 	 	</div>
+		 	 </div>
+		 	 <div class="love-health">
+		 	 	<div class="bodyHeader">
+		 	 		<span>爱健康</span>
+		 	 		<img src="images/health.jpg">
+		 	 		<ul class="fr">
+						<li><a href="javascript:;">健康服务</a></li>
+						<li><a href="javascript:;">计生情趣</a></li>
+						<li><a href="javascript:;">隐形眼镜</a></li>
+						<li><a href="javascript:;">慢病管理</a></li>
+					</ul>
+		 	 	</div>
+		 	 	<div class="box">
+		 	 		<div class="topbox">
+		 	 			<div class="topLeft">
+		 	 				<a href="javascript:;"><img src="images/health1.jpg" alt="" /></a>
+		 	 			</div>
+		 	 			<ul class="topRight">
+		 	 				<li>
+		 	 					<img src="images/top_right1.jpg" alt="" />
+								<div class="topInfo">
+									<span>格调男装</span>
+									<p>3件7折</p>
+								</div>
+		 	 				</li>
+		 	 				<li>
+								<img src="images/top_right2.jpg" alt="" />
+								<div class="topInfo">
+									<span>大牌折扣日</span>
+									<p>2件9折</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/top_right3.jpg" alt="" />
+								<div class="topInfo">
+									<span>418耍大牌</span>
+									<p>春夏新品 满199减100</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/top_right4.jpg" alt="" />
+								<div class="topInfo">
+									<span>自营箱包</span>
+									<p>跨店满199减100</p>
+								</div>
+							</li>
+		 	 			</ul>
+		 	 		</div>
+		 	 		<div class="midBox">
+						<ul>
+							<li><a href="javascript:;"><img src="images/top_mid1.png" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/top_mid2.jpg" alt="" /></a></li>
+							<li><a href="javascript:;"><img src="images/top_mid3.jpg" alt="" /></a></li>
+						</ul>
+					</div>
+		 	 		<div class="botbox"><img src="images/life_bot.jpg" alt="" /></div>
+		 	 	</div>
+		 	 </div>
+		 </div>
+		 <!--购特色-->
+		 <div class="special">
+		 	<div class="spec-top">
+		 		<span style="white-space:pre;"></span><span class="line"></span>
+		 		<span style="white-space:pre;"></span><span class="text">购特色</span>
+		 	 	 <span style="white-space:pre;"></span><span class="line"></span>
+		 	</div>
+		 	<div class="spec-center">
+		 		<ul>
+		 			<li>
+		 				<img src="images/spec1.jpg" alt="" />
+		 				<div class="topSpec">
+							<span>司法拍卖</span>
+							<p>法院好货 公开抢拍</p>
+						</div>
+		 			</li>
+		 			<li>
+		 				<img src="images/spec2.jpg" alt="" />
+						<div class="topSpec">
+							<span>环球时尚</span>
+							<p>环球名品，奢华精选</p>
+						</div>
+		 			</li>
+		 			<li>
+		 				<img src="images/spec3.jpg" alt="" />
+						<div class="topSpec">
+							<span>品牌特卖</span>
+							<p>京东闪购 品牌限时特卖</p>
+						</div>
+		 			</li>
+		 			<li>
+		 				<img src="images/spec4.jpg" alt="" />
+						<div class="topSpec">
+							<span>京东健康</span>
+							<p>药品医疗营养滋补计生</p>
+						</div>
+		 			</li>
+		 			<li>
+		 				<img src="images/spec5.jpg" alt="" />
+						<div class="topSpec">
+							<span>陪伴宝宝</span>
+							<p>年化收益4.5%</p>
+						</div>
+		 			</li>
+		 			<li>
+		 				<img src="images/spec6.jpg" alt="" />
+						<div class="topSpec">
+							<span>企业购</span>
+							<p>购新品返200元E卡</p>
+						</div>
+		 			</li>
+		 			<li>
+		 				<img src="images/spec7.jpg" alt="" />
+						<div class="topSpec">
+							<span>IN货推荐</span>
+							<p>助力公路车直降2300元</p>
+						</div>
+		 			</li>
+		 		</ul>
+		 	</div>
+		 </div>
+		 <!--图片导航-->
+		 <div class="img-daohang">
+		 	 <a href="javascript:;"><img src="image/11.png"></a>
+		 </div>
+		 <!--还没逛够-->
+		 <div class="no-guang" id="no-guang">
+		 	 <div class="no-text">
+		 	 	 <span style="white-space:pre"></span><span class="line"></span>
+		 	 	 <span style="white-space:pre"></span><span class="text">还没逛够</span>
+		 	 	 <span style="white-space:pre"></span><span class="line"></span>
+		 	 </div>
+		 	 <ul class="no-lie">
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n1.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n2.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n3.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n4.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n5.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n1.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n5.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n1.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n2.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n1.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n4.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n5.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n1.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n5.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n1.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n1.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n2.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n1.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n4.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 	<li>
+		 	 		 <a href="javascript:;"><img src="image/n5.png"></a>
+		 	 		 <div class="lie-text">
+		 	 		 	<a href="javascript:;">邦特家用大号浴室防滑按摩脚进门门垫厕所卫生间垫子沐浴地垫</a>
+		 	 		 </div>
+		 	 		 <a href="javascript:;" class='lie-price'>￥24.8</a>
+		 	 	</li>
+		 	 </ul>
+		 </div>		 
+		 <!--底部-->
+		 <div class="bottom">
+		 	 <div class="bottom-top">
+		 	 	 <ul>
+		 	 	 	<li><i style="background: url(image/23.jpg);"></i><span class="duo">多</span><span>品类齐全，轻松购物</span></li>
+		 	 	 	<li><i style="background: url(image/24.jpg);"></i><span class="duo">快</span><span>多仓直发，快速配送</span></li>
+		 	 	 	<li><i style="background: url(image/25.jpg);"></i><span class="duo">好</span><span>正品行货，精致服务</span></li>
+		 	 	 	<li><i style="background: url(image/26.jpg);"></i><span class="duo">省</span><span>天天低价，畅选无忧</span></li>
+		 	 	 </ul>
+		 	 </div>
+		 	 <div class="fen"></div>
+		 	 <div class="bottom-center">
+		 	 	 <div>
+		 	 	 	 <dl class="fl">
+		 	 	 	 	 <dt>购物指南</dt>
+						 <dd><a href="javascript:;" class="wd">购物流程</a></dd>
+						 <dd><a href="javascript:;" class="wd">会员介绍</a></dd>
+						 <dd><a href="javascript:;" class="wd">生活旅行/团购</a></dd>
+						 <dd><a href="javascript:;" class="wd">常见问题</a></dd>
+						 <dd><a href="javascript:;" class="wd">大家电</a></dd>
+						 <dd><a href="javascript:;" class="wd">联系客服</a></dd>
+		 	 	 	 </dl>
+		 	 	 	 <dl class="fl">
+		 	 	 	 	 <dt>配送方式</dt>
+						 <dd><a href="javascript:;" class="wd">购物流程</a></dd>
+						 <dd><a href="javascript:;" class="wd">会员介绍</a></dd>
+						 <dd><a href="javascript:;" class="wd">生活旅行/团购</a></dd>
+						 <dd><a href="javascript:;" class="wd">常见问题</a></dd>
+						 <dd><a href="javascript:;" class="wd">大家电</a></dd>
+						 <dd><a href="javascript:;" class="wd">联系客服</a></dd>
+		 	 	 	 </dl>
+		 	 	 	 <dl class="fl">
+		 	 	 	 	 <dt>支付方式</dt>
+						 <dd><a href="javascript:;" class="wd">购物流程</a></dd>
+						 <dd><a href="javascript:;" class="wd">会员介绍</a></dd>
+						 <dd><a href="javascript:;" class="wd">生活旅行/团购</a></dd>
+						 <dd><a href="javascript:;" class="wd">常见问题</a></dd>
+						 <dd><a href="javascript:;" class="wd">大家电</a></dd>
+						 <dd><a href="javascript:;" class="wd">联系客服</a></dd>
+		 	 	 	 </dl>
+		 	 	 	 <dl class="fl">
+		 	 	 	 	 <dt>售后服务</dt>
+						 <dd><a href="javascript:;" class="wd">购物流程</a></dd>
+						 <dd><a href="javascript:;" class="wd">会员介绍</a></dd>
+						 <dd><a href="javascript:;" class="wd">生活旅行/团购</a></dd>
+						 <dd><a href="javascript:;" class="wd">常见问题</a></dd>
+						 <dd><a href="javascript:;" class="wd">大家电</a></dd>
+						 <dd><a href="javascript:;" class="wd">联系客服</a></dd>
+		 	 	 	 </dl>
+		 	 	 	 <dl class="fl">
+		 	 	 	 	 <dt>特色服务</dt>
+						 <dd><a href="javascript:;" class="wd">购物流程</a></dd>
+						 <dd><a href="javascript:;" class="wd">会员介绍</a></dd>
+						 <dd><a href="javascript:;" class="wd">生活旅行/团购</a></dd>
+						 <dd><a href="javascript:;" class="wd">常见问题</a></dd>
+						 <dd><a href="javascript:;" class="wd">大家电</a></dd>
+						 <dd><a href="javascript:;" class="wd">联系客服</a></dd>
+		 	 	 	 </dl>
+		 	 	 	 <dl class="fl">
+		 	 	 	 	 <dt>京东自营覆盖区县</dt>
+						 <dd>京东已向全国2661个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</dd>
+						 <dd style="text-align:right;"><a href="javascript:;" class="wd">查看详情<i class="fa fa-angle-right"></i></a> </dd>
+		 	 	 	 </dl>
+		 	 	 </div>
+		 	 </div>
+		 	 <div class="cb"></div>
+		 	 <div class="bottom-footer">
+		 	 	 <div class="guanyu">
+		 	 	 	<a href="javascript:;" class="wd">京东会员</a><small>|</small>			 	 	 
+			 	 	<a href="javascript:;" class="wd">联系我们</a><small>|</small>
+			 	 	<a href="javascript:;" class="wd">联系客服</a><small>|</small>			 	 	 
+			 	 	<a href="javascript:;" class="wd">合作招商</a><small>|</small>
+			 	 	<a href="javascript:;" class="wd">商家帮助</a><small>|</small>			 	 	 
+			 	 	<a href="javascript:;" class="wd">营销中心</a><small>|</small>
+			 	 	<a href="javascript:;" class="wd">手机京东</a><small>|</small>			 	 	 
+			 	 	<a href="javascript:;" class="wd">友情链接</a><small>|</small>
+			 	 	<a href="javascript:;" class="wd">销售联盟</a><small>|</small>			 	 	 
+			 	 	<a href="javascript:;" class="wd">京东社区</a><small>|</small>
+			 	 	<a href="javascript:;" class="wd">风险监测</a><small>|</small>			 	 	 
+			 	 	<a href="javascript:;" class="wd">隐私政策</a><small>|</small>
+			 	 	<a href="javascript:;" class="wd">京东公益</a><small>|</small>			 	 	 
+			 	 	<a href="javascript:;" class="wd">English Site</a><small>|</small>
+			 	 	<a href="javascript:;" class="wd">Contact Us</a>
+		 	 	 </div>
+		 	 	 <div class="text-c">
+		 	 	 	 <a href="javascript:;">京公网安备 11000002000088号</a><small>|</small>
+					 <a href="javascript:;">京ICP证070359号</a><small>|</small>
+					 <a href="javascript:;">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a><small>|</small>
+					 <a href="javascript:;">新出发京零 字第大120007号</a><br/>
+					 <a href="javascript:;">互联网出版许可证编号新出网证(京)字150号</a><small>|</small>
+					 <a href="javascript:;">出版物经营许可证</a><small>|</small>
+					 <a href="javascript:;">网络文化经营许可证京网文[2014]2148-348号</a><small>|</small>
+					 <a href="javascript:;">违法和不良信息举报电话：4006561155</a><br/>
+					 <a href="javascript:;">Copyright © 2004 - 2017  京东JD.com 版权所有</a><small>|</small>
+					 <a href="javascript:;">消费者维权热线：4006067733经营证照</a><br/>
+					 <a href="javascript:;">京东旗下网站：京东钱包</a><small>|</small>
+					 <a href="javascript:;">京东云</a>
+		 	 	 </div>
+		 	 	 <div class="guanggao">
+		 	 	 	 <a href="javascript:;"><img src="image/54b8871eNa9a7067e.png"></a>
+					 <a href="javascript:;"><img src="image/54b8871eNa9a7067e.png"></a>
+					 <a href="javascript:;"><img src="image/54b8871eNa9a7067e.png"></a>
+					 <a href="javascript:;"><img src="image/54b8871eNa9a7067e.png"></a>
+					 <a href="javascript:;"><img src="image/54b8871eNa9a7067e.png"></a>
+					 <a href="javascript:;"><img src="image/54b8871eNa9a7067e.png"></a>
+		 	 	 </div>
+		 	 </div>
+		 </div>
+	</body>
+</html>
+
