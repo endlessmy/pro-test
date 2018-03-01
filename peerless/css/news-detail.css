@@ -1,0 +1,65 @@
+.detail {
+  width: 18.4375rem;
+  height: auto;
+  min-height: 29.21875rem;
+  margin: 0 auto;
+  padding-top: 5.09375rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.detail .title {
+  width: 18.4375rem;
+  font-size: 0.9375rem;
+  margin-bottom: 0.3rem;
+  color: #333333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.detail .s-title {
+  font-size: 0.625rem;
+  color: #999999;
+}
+.detail .line {
+  font-size: 0.75rem;
+  background: #ccc;
+  height: 0.03125rem;
+  line-height: 1.375rem;
+  margin: 0.625rem 0;
+}
+.detail .info1 {
+  font-size: 0.75rem;
+  line-height: 1.375rem;
+  text-indent: 1rem;
+  color: #444444;
+}
+.detail .img {
+  width: 100%;
+  height: auto;
+  margin-top: 0.625rem;
+}
+.detail .img img {
+  width: 100%;
+  height: auto;
+}
+.detail .img-alt {
+  text-align: center;
+  color: #444444;
+}
+.detail .img-alt span {
+  line-height: 0.6rem;
+}
+.detail .info2-title strong {
+  font-size: 0.75rem;
+  color: #333333;
+}
+.detail .info2 {
+  font-size: 0.75rem;
+  font-weight: normal;
+  color: #444444;
+  text-indent: 1rem;
+  line-height: 1.375rem;
+}
+.footer {
+  margin-top: 1rem;
+}

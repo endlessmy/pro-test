@@ -1,0 +1,79 @@
+.news{
+    width:100%;
+    height:auto;
+    min-height: 35.5rem;
+    padding-top:4.5625rem;
+    box-sizing: border-box;
+    position: relative;
+    &>img{
+        width:7.28125rem;height:2.03125rem;
+        position: absolute;left:50%;
+        margin-left: -3.59375rem;
+    }
+    .news-top{
+        width:100%;height:2.03125rem;border-bottom:1px solid #DDDDDD;
+        position: relative;margin-top:2rem;
+        ul{
+            width:100%;height:100%;
+            li{
+                width:20%;
+                height: 1.9375rem;
+                font-size: 0.875rem;
+                text-align: center;
+                line-height: 1.9375rem;
+                float: left;
+                a{
+                    display: block;width:100%;height:100%;
+                    font-size:0.875rem;
+                    color: #666666;
+                }
+            }
+            li.news-on{
+                a{border-bottom: 0.09375rem solid #af2316;}
+            }
+        }
+    }
+    .news-center{
+        width:18.4375rem;min-height:22.5rem;
+        margin:0 auto;
+        ul{
+            width:100%;height:100%;
+            display: none;
+            li{
+                width:100%;height:2.5rem;
+                line-height: 2.5rem;
+                border-bottom: 3px dashed #ddd;
+                a{
+                    font-size: 0.75rem;
+                    color: #333333;
+                    em{
+                        font-size: 0.625rem;
+                        color: #999999;
+                        font-style: normal;
+                    }
+                }
+                i{
+                    float: right;
+                    font-size: 0.5625rem;
+                    color: #999999;
+                    font-style: normal;
+                }
+            }
+        }
+        ul.news-active{display: block;}
+    }
+    .load{
+        width:8.90625rem;height:1.5rem;
+        margin:0.9375rem auto;
+        background-color: #eeeeee;
+        border-radius: 0.75rem;
+        font-size: 0.6875rem;
+        text-align: center;
+        line-height:1.5rem;
+        color: #999999;
+    }
+}
+.footer{
+    position: relative;
+    margin-top:0.9375rem;
+}

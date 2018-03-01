@@ -1,0 +1,178 @@
+.general {
+  width: 18.4375rem;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 4.5rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.general .role {
+  width: 100%;
+  height: 31.40625rem;
+  background: url(../img/gen-bg.jpg) no-repeat center;
+  background-size: 100% 100%;
+  display: none;
+}
+.general .role .slide {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.general .role .slide .wj_per {
+  display: block;
+  width: 100%;
+  padding-top: .5rem;
+  margin-left: 2.5rem;
+}
+.general .role .slide .gen-info {
+  width: 17.65625rem;
+  height: 13.5625rem;
+  background: url(../img/gen-info-bg.png) no-repeat center;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  margin-top: -6rem;
+  position: relative;
+  z-index: 2;
+  padding: 0.3125rem;
+  box-sizing: border-box;
+}
+.general .role .slide .gen-info .name {
+  font-family: SourceHanSerifCN-SemiBold;
+  font-size: 1.5625rem;
+  color: #F7E4A2;
+}
+.general .role .slide .gen-info .gen-this {
+  font-size: 0.75rem;
+  line-height: 1.3125rem;
+  color: #bbbbbb;
+}
+.general .role .slide .gen-bottom {
+  width: 15.625rem;
+  height: 6.875rem;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 2.2rem;
+  z-index: 3;
+}
+.general .role .slide .gen-bottom .gen-tu {
+  width: 15.625rem;
+  height: 2.7rem;
+}
+.general .role .slide .gen-bottom .gen-tu ul {
+  width: 100%;
+  height: 100%;
+}
+.general .role .slide .gen-bottom .gen-tu ul li {
+  width: 2.28125rem;
+  height: 100%;
+  float: left;
+  margin-right: 1rem;
+  position: relative;
+  cursor: pointer;
+}
+.general .role .slide .gen-bottom .gen-tu ul li .star {
+  display: block;
+  width: 2.28125rem;
+  height: 2.28125rem;
+}
+.general .role .slide .gen-bottom .gen-tu ul li .gen-down {
+  display: none;
+}
+.general .role .slide .gen-bottom .gen-tu ul li:last-child {
+  margin-right: 0;
+}
+.general .role .slide .gen-bottom .gen-tu ul li.active .gen-down {
+  display: block;
+  width: 0.4375rem;
+  height: 0.21875rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -0.21875rem;
+  bottom: 0;
+}
+.general .role .slide .gen-bottom .tu-info {
+  width: 15.625rem;
+  height: 4rem;
+  margin-top: 0.3rem;
+}
+.general .role .slide .gen-bottom .tu-info ul {
+  width: 100%;
+  height: 100%;
+}
+.general .role .slide .gen-bottom .tu-info ul li {
+  display: none;
+}
+.general .role .slide .gen-bottom .tu-info ul li p:first-child {
+  font-size: 0.9375rem;
+  line-height: 1.375rem;
+  color: #9C817F;
+}
+.general .role .slide .gen-bottom .tu-info ul li p:last-child {
+  font-size: 0.75rem;
+  color: #9C817F;
+}
+.general .role .slide .gen-bottom .tu-info ul li.gen-on {
+  display: block;
+}
+.general .role-on {
+  display: block;
+}
+.general .tab {
+  width: 100%;
+  height: 2.5rem;
+  margin: 0.625rem 0;
+  position: relative;
+}
+.general .tab .list {
+  width: 16.09375rem;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.general .tab .list ul {
+  width: 312.5rem;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.general .tab .list ul li {
+  width: 3.46875rem;
+  height: 2.03125rem;
+  float: left;
+  background: #000;
+  margin-right: 0.4375rem;
+  border: 0.125rem solid transparent;
+}
+.general .tab .list ul li img {
+  width: 100%;
+  height: 100%;
+}
+.general .tab .list ul li.tab-on {
+  border: 0.125rem solid #af2316;
+  background: #6C2A25;
+}
+.general .tab .prev {
+  display: inline-block;
+  width: 0.625rem;
+  height: 1.03125rem;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -0.515rem;
+  background: url(../img/left_w.png) no-repeat center;
+  background-size: 100% 100%;
+}
+.general .tab .next {
+  display: inline-block;
+  width: 0.625rem;
+  height: 1.03125rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -0.515rem;
+  background: url(../img/right_w.png) no-repeat center;
+  background-size: 100% 100%;
+}
