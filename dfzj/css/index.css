@@ -1,0 +1,213 @@
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+/*头部*/
+.hero-bar {
+  width: 100%;
+  height: 42px;
+  background: #fff;
+  position: relative;
+}
+.hero-bar .hero-head {
+  width: 1200px;
+  height: 42px;
+  margin: 0 auto;
+  position: relative;
+}
+.hero-bar .hero-head .hero-logo {
+  width: 112px;
+  height: 40px;
+  display: inline-block;
+  background: url(../img/hero-logo.png) no-repeat center;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.hero-bar .hero-head .hero-middle {
+  margin-left: 15px;
+  position: relative;
+  line-height: 42px;
+}
+.hero-bar .hero-head .hero-middle span {
+  color: #4d4c4c;
+  font-size: 14px;
+}
+.hero-bar .hero-head .hero-right {
+  margin-top: 10px;
+}
+.hero-bar .hero-head .hero-right a {
+  display: block;
+  float: left;
+  color: #4d4c4c;
+  font-size: 16px;
+}
+.hero-bar .hero-head .hero-right a:hover {
+  color: #d71341;
+}
+.hero-bar .hero-head .hero-right i {
+  height: 15px;
+  position: relative;
+  top: 3px;
+  margin-right: 7px;
+  display: block;
+  float: left;
+  color: #4d4c4c;
+  font-size: 16px;
+  background: url(../img/hero_ico.png) no-repeat;
+}
+.hero-bar .hero-head .hero-right .user {
+  padding-right: 12px;
+  border-right: 1px solid #b5b5b5;
+  margin-right: 12px;
+}
+.hero-bar .hero-head .hero-right .user i {
+  width: 15px;
+  background-position: 0 0;
+}
+.hero-bar .hero-head .hero-right .user:hover i {
+  background-position: 0 -19px;
+}
+.hero-bar .hero-head .hero-right .help i {
+  width: 19px;
+  background-position: -18px 0;
+}
+.hero-bar .hero-head .hero-right .help:hover i {
+  background-position: -18px -20px;
+}
+/*中心*/
+.con {
+  width: 100%;
+  min-height: 1010px;
+  min-width: 1200px;
+  position: relative;
+  overflow: hidden;
+  background: #021826;
+}
+.con .bg {
+  height: 1024px;
+  background: url(../img/c_bg.jpg) no-repeat top;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 50%;
+  width: 1920px;
+  min-height: 3448px;
+  margin-left: -960px;
+}
+.con .c-box {
+  width: 1200px;
+  height: 194px;
+  margin: 0 auto;
+  z-index: 10;
+  position: relative;
+}
+.con .c-box .c-logo {
+  width: 406px;
+  height: 194px;
+  margin: 45px 0 0 782px;
+}
+.con .c-box .c-logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.con .c-box .c-main {
+  width: 1200px;
+  margin-top: 323px;
+}
+.con .c-box .c-main .c-wx {
+  width: 279px;
+  height: 317px;
+  background: url(../img/co_ewmbg.png) no-repeat center;
+  overflow: hidden;
+  text-align: center;
+}
+.con .c-box .c-main .c-wx img {
+  width: 141px;
+  height: 141px;
+  margin: 109px 0 18px 74px;
+  display: block;
+}
+.con .c-box .c-main .c-wx p {
+  font-size: 14px;
+  color: #faeaac;
+}
+.con .c-box .c-main .c_video {
+  width: 435px;
+  height: 317px;
+  position: relative;
+}
+.con .c-box .c-main .c_video .v-btn {
+  display: block;
+  position: relative;
+}
+.con .c-box .c-main .c_video .v-btn img {
+  width: 435px;
+  height: 317px;
+  display: block;
+}
+.con .c-box .c-main .c_video .v-btn i {
+  width: 61px;
+  height: 61px;
+  z-index: 5;
+  left: 50%;
+  top: 50%;
+  margin-left: -30px;
+  margin-top: -30px;
+  position: absolute;
+  background: url(../img/c_v_play.png) no-repeat center;
+  background-size: 100% 100%;
+}
+.con .c-box .c-main .co_abtn {
+  width: 227px;
+}
+.con .c-box .c-main .co_abtn a {
+  display: block;
+  margin-bottom: 14px;
+}
+.con .c-box .c-main .co_abtn .co_enter {
+  margin-top: 60px;
+}
+.con .c-box .c-main .co_down {
+  width: 257px;
+  height: 300px;
+  overflow: hidden;
+  background: url(../img/co_down111.png) no-repeat center;
+}
+.con .c-box .c-main .co_down .jump {
+  width: 136px;
+  height: 136px;
+  display: block;
+  margin: 30px 0 0px 57px;
+}
+.con .c-box .c-main .co_down a {
+  width: 112px;
+  height: 35px;
+  display: inline-block;
+  margin: 0 auto;
+}
+.con .c-box .c-main .co_down .ios {
+  margin: 20px 0 0 15px;
+}
+.con .c-box .c-main .co_down .co_tab {
+  margin: 10px 0 0 15px;
+}
+.con .footer {
+  width: 100%;
+  height: 78px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #000000;
+  z-index: 20;
+  text-align: center;
+  padding-top: 23px;
+  box-sizing: border-box;
+}
+.con .footer p {
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+}

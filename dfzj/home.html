@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+</head>
+<body>
+    <!--头部-->
+    <div class="hero-bar">
+        <div class="hero-head">
+            <a href="javascript:;" class="hero-logo fl"></a>
+            <div class="hero-middle fl">
+                <span>一切以玩家乐趣为依据</span>
+            </div>
+            <div class="hero-right fr">
+                <a href="javascript:;" class="user"><i></i> 账号中心 </a>
+                <a href="javascript:;" class="help"><i></i> 客服中心 </a>
+            </div>
+        </div>
+    </div>
+    <!--中心-->
+    <div class="main">
+        <!--导航-->
+        <div class="top">
+            <div class="width1030">
+                <a href="" class="gif fl">
+                    <img src="img/logo.gif">
+                </a>
+                <ul class="fl">
+                    <li class="on">
+                        <a href="javascript:;">首页</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">赛事专区</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">新闻资讯</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">名人堂</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">战舰百科</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">官方社区</a>
+                    </li>
+                </ul>
+                <div class="t-share fr">
+                    <a href="javascript:;" class="ewm_wx">
+                        <img src="img/ewm_wx.jpg">
+                    </a>
+                    <a href="javascript:;" class="ewm_wb"></a>
+                    <a href="javascript:;" class="ewm_bd"></a>
+                </div>
+            </div>
+        </div>
+        <!--新闻资讯-->
+        <div class="width1200">
+           <div class="main1">
+               <img src="img/i_til01.png">
+               <div class="news-left fl">
+                  <ul>
+                      <li class="news-on">
+                          <img src="img/news-lun1.jpg">
+                      </li>
+                      <li>
+                          <img src="img/news-lun2.jpg">
+                      </li>
+                      <li>
+                          <img src="img/news-lun3.png">
+                      </li>
+                  </ul>
+                   <div class="slide">
+                       <span class="slide-on"></span>
+                       <span></span>
+                       <span></span>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </div>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script>
+    $(function () {
+        /*新闻切换*/
+        $(".slide span").hover(function () {
+            $(this).addClass('slide-on').siblings().removeClass('slide-on');
+            var index=$(this).index();
+            $(".news-left li").eq(index).fadeIn(500).siblings().fadeOut(500);
+        })
+    })
+</script>
+</body>
+</html>
