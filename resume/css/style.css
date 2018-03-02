@@ -147,7 +147,7 @@ a.downarrow{
 /*技能与经验*/
 .skills{
 	width:100%;
-	height:750px;
+	height:800px;
     color:#666;
 	text-align: center;
 	padding: 30px 0;
@@ -187,10 +187,10 @@ a.downarrow{
 .skills:hover li:nth-child(2) span{width:350px;}
 .skills:hover li:nth-child(3) span{width:300px;}
 .skills:hover li:nth-child(4) span{width:250px;}
-.skills:hover li:nth-child(5) span{width:400px;}
-.skills:hover li:nth-child(6) span{width:250px;}
-.skills:hover li:nth-child(7) span{width:300px;}
-
+.skills:hover li:nth-child(5) span{width:200px;}
+.skills:hover li:nth-child(6) span{width:280px;}
+.skills:hover li:nth-child(7) span{width:180px;}
+.skills:hover li:nth-child(8) span{width:190px;}
 
 /*教育背景*/
 .educ{
@@ -313,10 +313,11 @@ a.downarrow{
 	color:#fff;
 }
 .product-body{
-	width:95%;/*border:1px solid red;*/
+	width:95%;
 	height:400px;
 	margin:50px auto;
 	position:relative;
+	margin-bottom:15px;
 }
 .product-body .product-center{
 	position:absolute;
@@ -378,6 +379,16 @@ a.downarrow{
 .product-body .coffee img{width:600px;height:100%;}
 .product-body .coffee .lay{width:600px;height:400px;}
 .product-body .coffee a{width:600px;height:400px;margin-right:20px;}
+
+.product-foot{
+	width: 200px;height:40px;line-height: 40px;
+	margin:0 auto;
+	position: relative;
+}
+.product-foot a{
+	font-size: 16px;
+	color: #555;font-weight: bold;
+}
 
 /*联系我*/
 .contact{
