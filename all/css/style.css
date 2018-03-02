@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+.all {
+  width: 100%;
+  height: 100%;
+}
+.all .head {
+  width: 100%;
+  height: 3.125rem;
+  background: #191919;
+  z-index: 12222;
+  opacity: .9;
+  position: fixed;
+}
+.all .head .center {
+  width: 18.71875rem;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.all .head .center .logo {
+  float: left;
+  width: 3.1875rem;
+  height: 3.125rem;
+  margin-top: 0.3125rem;
+  border-radius: 15%;
+  background: #E74B3F;
+}
+.all .head .center .logo img {
+  width: 100%;
+  height: 100%;
+}
+.all .head .center .info {
+  float: left;
+  margin-left: 0.625rem;
+}
+.all .head .center .info h3 {
+  margin-top: 0.625rem;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 500;
+}
+.all .head .center .info p {
+  font-size: 0.625rem;
+  color: #787979;
+}
+.all .head .center .atonce {
+  float: right;
+  margin-top: 0.625rem;
+}
+.all .head .center .atonce a {
+  width: 5.46875rem;
+  height: 1.875rem;
+  display: inline-block;
+  background: #FFD01A;
+  font-weight: 500;
+  color: #000;
+  line-height: 1.875rem;
+  font-size: 1.0rem;
+  text-align: center;
+  border-radius: 5%;
+}
+.all .content {
+  width: 100%;
+  height: 100%;
+  min-height: 47.875rem;
+  background: url(../images/bg_01.png) no-repeat top;
+  background-size: cover;
+  position: relative;
+}
+.all .content .audio {
+  position: absolute;
+  top: 13rem;
+  left: 3.03125rem;
+  z-index: 10;
+}
+.all .content .audio a {
+  width: 1.875rem;
+  height: 1.84375rem;
+  display: inline-block;
+}
+.all .content .audio a img {
+  animation: jump 2s linear infinite;
+}
+.all .content .main1 {
+  width: 100%;
+  height: 17.8125rem;
+  top: 3.125rem;
+  position: absolute;
+}
+.all .content .main1 .swiper_01 .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+.all .content .main1 .swiper_01 .swiper-button-prev {
+  width: 1.71875rem;
+  height: 1.28125rem;
+  position: absolute;
+  top: 11.03125rem;
+  left: 0.3125rem;
+  background: url(../images/top_prev.png) no-repeat center;
+  background-size: 100% 100%;
+}
+.all .content .main1 .swiper_01 .swiper-button-next {
+  width: 1.71875rem;
+  height: 1.28125rem;
+  position: absolute;
+  top: 5.6875rem;
+  right: 0.3125rem;
+  background: url(../images/top_next.png) no-repeat center;
+  background-size: 100% 100%;
+}
+.all .content .bord {
+  height: 14.40625rem;
+  width: 100%;
+  position: absolute;
+  top: 15.40625rem;
+  z-index: 12;
+  background: url(../images/board.png) no-repeat center;
+  background-size: cover;
+}
+.all .content .main2 {
+  width: 100%;
+  height: 22.0625rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: url(../images/im.png) no-repeat center;
+  background-size: cover;
+  z-index: 123;
+}
+.all .content .main2 .slide2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.all .content .main2 .slide2 .swiper_02 {
+  width: 17.57rem;
+  height: 9.875rem;
+  position: absolute;
+  top: 11rem;
+  left: 1.205rem;
+}
+.all .content .main2 .slide2 .swiper_02 .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+.all .content .main2 .slide2 .swiper-prev1 {
+  position: absolute;
+  width: 0.78125rem;
+  height: 1.34375rem;
+  left: 0.1rem;
+  top: 16.25rem;
+  background: url(../images/prev2.png) no-repeat center;
+  background-size: cover;
+}
+.all .content .main2 .slide2 .swiper-next1 {
+  position: absolute;
+  width: 0.78125rem;
+  height: 1.34375rem;
+  right: 0.1rem;
+  top: 16.25rem;
+  background: url(../images/next2.png) no-repeat center;
+  background-size: cover;
+}
+@keyframes jump {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
