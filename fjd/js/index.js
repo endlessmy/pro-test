@@ -210,7 +210,7 @@ $(document).ready(function(){
  
 /*秒杀倒计时*/
 function getRTime(){
-	var endTime=new Date('2017/06/23 14:00:00');   //截止时间
+	var endTime=new Date('2018/09/23 14:00:00');   //截止时间
 	var nowTime=new Date();
 	var t=nowTime.getTime()-endTime.getTime();
 	var h=Math.floor(t/1000/60/60%24);
